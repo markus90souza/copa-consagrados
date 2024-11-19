@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React, { type FC } from 'react'
 
 type TimeCardProps = {
-  name: string
+  name?: string
   image: StaticImageData | string
   size?: number
 }
