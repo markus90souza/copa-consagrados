@@ -20,7 +20,7 @@ const data = [
   {
     time1: {
       name: 'Os Galácticos',
-      shield: '/images/asset-1.webp',
+      shield: '/images/galacticos.png',
     },
     time2: {
       name: 'Morro da Providência',
@@ -35,7 +35,7 @@ const data = [
   {
     time1: {
       name: 'Real Madruga',
-      shield: '/images/asset-1.webp',
+      shield: '/images/real-madruga.png',
     },
     time2: {
       name: 'Velho Oeste',
@@ -50,7 +50,7 @@ const data = [
   {
     time1: {
       name: 'PSG Pituba',
-      shield: '/images/asset-1.webp',
+      shield: '/images/psg-pituba.png',
     },
     time2: {
       name: 'Doces Souza',
@@ -84,7 +84,7 @@ const data = [
     },
     time2: {
       name: 'Vila Real',
-      shield: '/images/asset-2.webp',
+      shield: '/images/vila-real.png',
     },
     rodada: 'Primeira Rodada',
     date: 'Terça, 11/26/2024',
