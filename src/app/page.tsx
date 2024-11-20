@@ -9,7 +9,7 @@ const data = [
     },
     time2: {
       name: 'Barça 11',
-      shield: '/images/asset-2.webp',
+      shield: '/images/barca11.svg',
     },
     rodada: 'Primeira Rodada',
     date: 'Sábado, 11/23/2024',
@@ -39,7 +39,7 @@ const data = [
     },
     time2: {
       name: 'Velho Oeste',
-      shield: '/images/asset-2.webp',
+      shield: '/images/velho-oeste.svg',
     },
     rodada: 'Primeira Rodada',
     date: 'Sábado, 11/23/2024',
@@ -65,7 +65,7 @@ const data = [
   {
     time1: {
       name: 'Serrado',
-      shield: '/images/asset-1.webp',
+      shield: '/images/serrado.svg',
     },
     time2: {
       name: 'Atlético Taquari',
@@ -80,7 +80,7 @@ const data = [
   {
     time1: {
       name: 'Fênix',
-      shield: '/images/asset-1.webp',
+      shield: '/images/fenix.svg',
     },
     time2: {
       name: 'Vila Real',
