@@ -5,7 +5,7 @@ const data = [
   {
     time1: {
       name: 'Revoada',
-      shield: '/images/asset-1.webp',
+      shield: '/images/revoada.png',
     },
     time2: {
       name: 'Barça 11',
@@ -24,7 +24,7 @@ const data = [
     },
     time2: {
       name: 'Morro da Providência',
-      shield: '/images/asset-2.webp',
+      shield: '/images/morro-da-providencia.png',
     },
     rodada: 'Primeira Rodada',
     date: 'Sábado, 11/23/2024',
@@ -54,7 +54,7 @@ const data = [
     },
     time2: {
       name: 'Doces Souza',
-      shield: '/images/asset-2.webp',
+      shield: '/images/doces-souza.png',
     },
     rodada: 'Primeira Rodada',
     date: 'Terça, 11/26/2024',
@@ -69,7 +69,7 @@ const data = [
     },
     time2: {
       name: 'Atlético Taquari',
-      shield: '/images/asset-2.webp',
+      shield: '/images/atletico-taquari.png',
     },
     rodada: 'Primeira Rodada',
     date: 'Terça, 11/26/2024',
