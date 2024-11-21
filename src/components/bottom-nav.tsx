@@ -51,7 +51,7 @@ const BottomNav = () => {
             <Icon icon="mingcute:notification-line" width="32" height="32" />
           )}
         </Link>
-        <Link href="/messages" className="flex items-center">
+        <Link href="/classificacao" className="flex items-center">
           {isMessagesActive ? (
             <Icon icon="ic:baseline-email" width="32" height="32" />
           ) : (
