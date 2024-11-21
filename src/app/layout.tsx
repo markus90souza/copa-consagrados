@@ -4,6 +4,7 @@ import '@/styles/globals.css'
 
 import { Archivo } from 'next/font/google'
 import type { FC, ReactNode } from 'react'
+import { BottomNav } from '@/components/bottom-nav'
 
 export const metadata: Metadata = {
   title: '1 Copa Consagrados',
@@ -22,7 +23,10 @@ type LayoutProps = {
 const RootLayout: FC<LayoutProps> = ({ children }) => {
   return (
     <html lang="pt-BR">
-      <body className={`${archivo.variable} antialiased dark`}>{children}</body>
+      <body className={`${archivo.variable} antialiased dark flex-1`}>
+        <main className="flex-1">{children}</main>
+        <BottomNav />
+      </body>
     </html>
   )
 }

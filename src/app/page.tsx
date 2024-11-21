@@ -12,7 +12,7 @@ const data = [
       shield: '/images/barca11.svg',
     },
     rodada: 'Primeira Rodada',
-    date: 'Sábado, 11/23/2024',
+    date: 'Sábado, 23/11/2024',
     time: '19:00',
     stadium: 'Quadra Poliesportiva AG 11',
   },
@@ -27,7 +27,7 @@ const data = [
       shield: '/images/morro-da-providencia.png',
     },
     rodada: 'Primeira Rodada',
-    date: 'Sábado, 11/23/2024',
+    date: 'Sábado, 23/11/2024',
     time: '20:00',
     stadium: 'Quadra Poliesportiva AG 11',
   },
@@ -42,7 +42,7 @@ const data = [
       shield: '/images/velho-oeste.svg',
     },
     rodada: 'Primeira Rodada',
-    date: 'Sábado, 11/23/2024',
+    date: 'Sábado, 23/11/2024',
     time: '21:00',
     stadium: 'Quadra Poliesportiva AG 11',
   },
@@ -57,7 +57,7 @@ const data = [
       shield: '/images/doces-souza.png',
     },
     rodada: 'Primeira Rodada',
-    date: 'Terça, 11/26/2024',
+    date: 'Terça, 26/11/2024',
     time: '19:00',
     stadium: 'Quadra Poliesportiva AG 11',
   },
@@ -72,7 +72,7 @@ const data = [
       shield: '/images/atletico-taquari.png',
     },
     rodada: 'Primeira Rodada',
-    date: 'Terça, 11/26/2024',
+    date: 'Terça, 26/11/2024',
     time: '20:00',
     stadium: 'Quadra Poliesportiva AG 11',
   },
@@ -87,7 +87,7 @@ const data = [
       shield: '/images/vila-real.png',
     },
     rodada: 'Primeira Rodada',
-    date: 'Terça, 11/26/2024',
+    date: 'Terça, 26/11/2024',
     time: '21:00',
     stadium: 'Quadra Poliesportiva AG 11',
   },
@@ -107,7 +107,7 @@ export default function Home() {
 
       <div className="w-full px-5">
         <div className="w-full max-w-7xl mx-auto">
-          <header className=" w-full uppercase text-5xl block font-bold text-zinc-100 mb-5 mt-4 ">
+          <header className="font-archivo  leading-6  w-full   text-zinc-100 mb-5 mt-4 ">
             Proximas Partidas
           </header>
 
