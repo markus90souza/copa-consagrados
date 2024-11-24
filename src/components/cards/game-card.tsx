@@ -6,18 +6,16 @@ import Link from 'next/link'
 
 import { cn } from '@/lib/utils'
 import { AspectRatio } from '@/components/ui/aspect-ratio'
-// import { Button } from '@/components/ui/button'
+
 import {
   Card,
   CardContent,
-  // CardDescription,
-  // CardFooter,
+  CardFooter,
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
 import { Badge } from '../ui/badge'
 
-// import { PlaceholderImage } from '@/components/placeholder-image'
 type Time = {
   name?: string
   shield: StaticImageData | string
@@ -32,14 +30,15 @@ interface ProductCardProps extends React.HTMLAttributes<HTMLDivElement> {
   date?: string
   hour?: string
   stadium?: string
-  variant?: 'default' | 'switchable'
 }
 
 export function GameCard({
   time1,
   time2,
   round,
-  // variant = 'default',
+  date,
+  hour,
+  stadium,
   className,
   ...props
 }: ProductCardProps) {
@@ -97,22 +96,22 @@ export function GameCard({
               </CardTitle>
             </div>
           </div>
+
+          <div className="w-full mt-4 items-center flex justify-between px-2">
+            <div className="">
+              <span className="text-lg uppercase">{date}</span>
+            </div>
+            <div className="">
+              <span className="text-3xl uppercase">{hour}</span>
+            </div>
+          </div>
         </CardContent>
       </Link>
-      {/* <CardFooter className="p-4 pt-1">
-        {variant === 'default' ? (
-          <div className="flex w-full items-center space-x-2">
-            <Button
-              aria-label="Add to cart"
-              size="sm"
-              className="h-8 w-full rounded-sm"
-              onClick={() => {}}
-            >
-              Add to cart
-            </Button>
-          </div>
-        ) : null}
-      </CardFooter> */}
+      <CardFooter className="p-4 ">
+        <div className="flex w-full items-center justify-center space-x-2">
+          <span className="text-xs block uppercase text-center">{stadium}</span>
+        </div>
+      </CardFooter>
     </Card>
   )
 }

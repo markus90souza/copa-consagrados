@@ -33,6 +33,9 @@ export default function Home() {
                   shield: item.time2.shield,
                 }}
                 round={item.rodada}
+                date={item.date}
+                hour={item.time}
+                stadium={item.stadium}
               />
             ))}
           </Section>
