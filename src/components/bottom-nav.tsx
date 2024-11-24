@@ -12,12 +12,8 @@ const BottomNav = () => {
   const scrollDirection = useScroll() // Use the custom hook
   const navClass = scrollDirection === 'up' ? '' : 'opacity-25 duration-500'
 
-  const {
-    isHomeActive,
-    isExploreActive,
-    isNotificationsActive,
-    isMessagesActive,
-  } = useNavigation()
+  const { isHomeActive, isGruposActive, isClassificacaoActive, isTimesActive } =
+    useNavigation()
 
   return (
     <div
@@ -32,8 +28,8 @@ const BottomNav = () => {
           )}
           {/* <span className="h-2 w-2 rounded-full bg-sky-500 absolute -top-0.5 right-[3px]"></span> */}
         </Link>
-        <Link href="/explore" className="flex items-center">
-          {isExploreActive ? (
+        <Link href="/grupos" className="flex items-center">
+          {isGruposActive ? (
             <Icon
               icon="uil:search"
               width="32"
@@ -44,15 +40,15 @@ const BottomNav = () => {
             <Icon icon="uil:search" width="32" height="32" />
           )}
         </Link>
-        <Link href="/notifications" className="flex items-center">
-          {isNotificationsActive ? (
+        <Link href="/classificacao" className="flex items-center">
+          {isClassificacaoActive ? (
             <Icon icon="mingcute:notification-fill" width="32" height="32" />
           ) : (
             <Icon icon="mingcute:notification-line" width="32" height="32" />
           )}
         </Link>
-        <Link href="/classificacao" className="flex items-center">
-          {isMessagesActive ? (
+        <Link href="/times" className="flex items-center">
+          {isTimesActive ? (
             <Icon icon="ic:baseline-email" width="32" height="32" />
           ) : (
             <Icon icon="ic:outline-email" width="32" height="32" />
