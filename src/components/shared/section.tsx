@@ -55,7 +55,7 @@ export function Section({
         <ChildrenShell
           className={cn(
             !asChild &&
-              'grid grid-cols-2 gap-4 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4',
+              'grid gap-4 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4',
           )}
         >
           {children}

@@ -38,7 +38,7 @@ export function EquipeCard({
       className={cn('size-full overflow-hidden rounded-sm', className)}
       {...props}
     >
-      <Link aria-label={time.name} href={`/`}>
+      <Link aria-label={time.name} href={`#`}>
         <CardHeader className="border-b p-0">
           <AspectRatio ratio={4 / 3}>
             {time.image ? (
