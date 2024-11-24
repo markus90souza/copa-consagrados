@@ -1,7 +1,7 @@
 import { GameCard } from '@/components/cards/game-card'
 import { Section } from '@/components/shared/section'
 import { Shell } from '@/components/shell'
-import { TimeCardFull } from '@/components/time-card-full'
+// import { TimeCardFull } from '@/components/time-card-full'
 import { jogos } from '@/data/jogos'
 import Image from 'next/image'
 
