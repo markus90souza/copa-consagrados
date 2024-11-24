@@ -77,6 +77,6 @@ export const times = [
   },
   {
     name: 'BIQUEIRA',
-    shield: '/times/grupo-5/BIQUEIRA.png',
+    shield: '/times/grupo-5/biqueira.png',
   },
 ]

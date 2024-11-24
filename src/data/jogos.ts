@@ -134,7 +134,7 @@ export const jogos = [
   {
     time1: {
       name: 'BIQUEIRA',
-      shield: '/times/BIQUEIRA.png',
+      shield: '/times/biqueira.png',
     },
     time2: {
       name: 'BAHIA 10',
