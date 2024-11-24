@@ -9,12 +9,13 @@ import { AspectRatio } from '@/components/ui/aspect-ratio'
 // import { Button } from '@/components/ui/button'
 import {
   Card,
-  // CardContent,
+  CardContent,
   // CardDescription,
   // CardFooter,
   CardHeader,
-  // CardTitle,
+  CardTitle,
 } from '@/components/ui/card'
+import { Badge } from '../ui/badge'
 
 // import { PlaceholderImage } from '@/components/placeholder-image'
 type Time = {
@@ -37,6 +38,7 @@ interface ProductCardProps extends React.HTMLAttributes<HTMLDivElement> {
 export function GameCard({
   time1,
   time2,
+  round,
   // variant = 'default',
   className,
   ...props
@@ -48,6 +50,13 @@ export function GameCard({
     >
       <Link className="" href={`#`}>
         <CardHeader className="p-0 space-y-0  flex flex-row relative">
+          <Badge
+            className="rounded-full z-40 absolute right-1/2 bg-zinc-950 transform translate-x-1/2 translate-y-1  uppercase text-center text-xs py-1 px-2"
+            variant="outline"
+          >
+            {round}
+          </Badge>
+
           <AspectRatio ratio={4 / 3}>
             <Image
               src={time1.shield ?? '/images/product-placeholder.webp'}
@@ -73,12 +82,23 @@ export function GameCard({
           </AspectRatio>
         </CardHeader>
       </Link>
-      {/* <Link href={`/`} tabIndex={-1}>
-        <CardContent className="space-y-1.5 p-4">
-          <CardTitle className="line-clamp-1">{time1.name}</CardTitle>
-          <CardDescription className="line-clamp-1"></CardDescription>
+      <Link href={`/`} tabIndex={-1}>
+        <CardContent className="p-0 py-4 bg-zinc-900">
+          <div className="grid grid-cols-2 gap-2 w-full">
+            <div className="">
+              <CardTitle className="line-clamp-1 text-center text-sm uppercase">
+                {time1.name}
+              </CardTitle>
+            </div>
+
+            <div className="">
+              <CardTitle className="line-clamp-1 text-center text-sm uppercase">
+                {time2.name}
+              </CardTitle>
+            </div>
+          </div>
         </CardContent>
-      </Link> */}
+      </Link>
       {/* <CardFooter className="p-4 pt-1">
         {variant === 'default' ? (
           <div className="flex w-full items-center space-x-2">

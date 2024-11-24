@@ -32,6 +32,7 @@ export default function Home() {
                   name: item.time2.name,
                   shield: item.time2.shield,
                 }}
+                round={item.rodada}
               />
             ))}
           </Section>
