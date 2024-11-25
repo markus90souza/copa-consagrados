@@ -60,7 +60,7 @@ export function Section({
         >
           {children}
         </ChildrenShell>
-        <Button
+        {/* <Button
           variant="ghost"
           className="mx-auto flex w-fit sm:hidden"
           asChild
@@ -70,7 +70,7 @@ export function Section({
             <ArrowRightIcon className="ml-2 size-4" aria-hidden="true" />
             <span className="sr-only"> {linkText}</span>
           </Link>
-        </Button>
+        </Button> */}
       </div>
     </section>
   )

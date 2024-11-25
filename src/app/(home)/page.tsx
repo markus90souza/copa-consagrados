@@ -1,9 +1,14 @@
+'use client'
+
 import { GameCard } from '@/components/cards/game-card'
+
 import { Section } from '@/components/shared/section'
 import { Shell } from '@/components/shell'
 // import { TimeCardFull } from '@/components/time-card-full'
 import { jogos } from '@/data/jogos'
+
 import Image from 'next/image'
+import { Partner } from './_components/partner'
 
 export default function Home() {
   return (
@@ -38,6 +43,19 @@ export default function Home() {
                 stadium={item.stadium}
               />
             ))}
+          </Section>
+        </Shell>
+      </div>
+
+      <div className="w-full px-4">
+        <Shell className="max-w-7xl mx-auto">
+          <Section
+            title="Nossos Parceiros"
+            href="/"
+            className="pt-8 justify-center"
+            description="Nossos Parceiros, que nos ajudam a tornar a Copa Consagrada um sucesso."
+          >
+            <Partner />
           </Section>
         </Shell>
       </div>
