@@ -23,8 +23,8 @@ export default function Home() {
         />
       </div>
 
-      <div className="w-full px-5">
-        <Shell className="max-w-7xl mx-auto">
+      <div className="w-full">
+        <Shell className="max-w-7xl mx-auto px-4">
           <Section title="TODAS AS PARTIDAS" href="#">
             {jogos.map((item, index) => (
               <GameCard
@@ -47,8 +47,8 @@ export default function Home() {
         </Shell>
       </div>
 
-      <div className="w-full px-4">
-        <Shell className="max-w-7xl mx-auto">
+      <div className="w-full">
+        <Shell className="max-w-7xl mx-auto px-4">
           <Section
             title="Nossos Parceiros"
             href="/"

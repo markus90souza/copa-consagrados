@@ -15,13 +15,13 @@ export const Partner = () => {
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="w-full max-w-sm mx-auto"
+      className="w-full max-w-xs mx-auto p-0"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
-      <CarouselContent className="w-full">
+      <CarouselContent className="">
         {partners.map((item, index) => (
-          <CarouselItem key={index}>
+          <CarouselItem className="w-full" key={index}>
             <PartnerCard partner={item} key={index} />
           </CarouselItem>
         ))}

@@ -1,12 +1,12 @@
 export const jogos = [
   {
     time1: {
-      name: 'Real Madruga',
-      shield: '/times/real-madruga.png',
+      name: 'REVOADA',
+      shield: '/times/revoada.png',
     },
     time2: {
-      name: 'Velho Oeste',
-      shield: '/times/velho-oeste.png',
+      name: 'BARCELONA 11',
+      shield: '/times/barca11.png',
     },
     rodada: 'Primeira Rodada',
     date: 'Terça, 26/11/2024',
@@ -105,18 +105,19 @@ export const jogos = [
   },
   {
     time1: {
-      name: 'REVOADA',
-      shield: '/times/revoada.png',
+      name: 'Real Madruga',
+      shield: '/times/real-madruga.png',
     },
     time2: {
-      name: 'BARCELONA 11',
-      shield: '/times/barca11.png',
+      name: 'Velho Oeste',
+      shield: '/times/velho-oeste.png',
     },
     rodada: 'Primeira Rodada',
     date: 'Sábado, 30/11/2024',
     time: '19:00',
     stadium: 'Quadra Poliesportiva AG 11',
   },
+
   {
     time1: {
       name: 'FÊNIX',
