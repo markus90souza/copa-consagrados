@@ -34,4 +34,9 @@ export const partners = [
     name: 'Segel',
     image: '/partners/segel.png',
   },
+  {
+    id: 8,
+    name: 'Supermercado Tio correia',
+    image: '/partners/tio-correia.png',
+  },
 ]
