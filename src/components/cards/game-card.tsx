@@ -42,7 +42,7 @@ export function GameCard({
   hour,
   stadium,
   status,
-  link,
+  link = '#',
   className,
   ...props
 }: ProductCardProps) {
