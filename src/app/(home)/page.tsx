@@ -32,15 +32,20 @@ export default function Home() {
                 time1={{
                   name: item.time1.name,
                   shield: item.time1.shield,
+
+                  goal: item.time1.goals ? item.time1.goals : 0,
                 }}
                 time2={{
                   name: item.time2.name,
                   shield: item.time2.shield,
+                  goal: item.time2.goals ? item.time2.goals : 0,
                 }}
                 round={item.rodada}
                 date={item.date}
                 hour={item.time}
                 stadium={item.stadium}
+                status={item.status as 'Finalizado' | 'Em andamento'}
+                link={item.link}
               />
             ))}
           </Section>

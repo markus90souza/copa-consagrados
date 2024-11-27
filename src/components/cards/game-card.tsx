@@ -19,7 +19,7 @@ import { Badge } from '../ui/badge'
 type Time = {
   name?: string
   shield: StaticImageData | string
-  goals?: number
+  goal: number
 }
 
 interface ProductCardProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -30,6 +30,8 @@ interface ProductCardProps extends React.HTMLAttributes<HTMLDivElement> {
   date?: string
   hour?: string
   stadium?: string
+  status?: 'Finalizado' | 'Em andamento'
+  link?: string
 }
 
 export function GameCard({
@@ -39,15 +41,17 @@ export function GameCard({
   date,
   hour,
   stadium,
+  status,
+  link,
   className,
   ...props
 }: ProductCardProps) {
   return (
-    <Card
-      className={cn('size-full overflow-hidden rounded-sm', className)}
-      {...props}
-    >
-      <Link className="" href={`#`}>
+    <Link className="" href={String(link) || '#'}>
+      <Card
+        className={cn('size-full overflow-hidden rounded-sm', className)}
+        {...props}
+      >
         <CardHeader className="p-0 space-y-0  flex flex-row relative">
           <Badge
             className="rounded-full z-40 absolute right-1/2 bg-zinc-950 transform translate-x-1/2 translate-y-1  uppercase text-center text-xs py-1 px-2"
@@ -66,6 +70,13 @@ export function GameCard({
               loading="lazy"
             />
           </AspectRatio>
+
+          {time1.goal && (
+            <div className="absolute left-14 bottom-1 rounded-md  flex items-center justify-center w-10 h-10 bg-zinc-900">
+              <span className="text-3xl">{time1.goal}</span>
+            </div>
+          )}
+
           <div className="w-6 h-6 flex items-center bg-zinc-900 justify-center absolute top-1/2 left-1/2 z-50 transform -translate-x-1/2 -translate-y-1/2 rounded-md">
             <span className="font-bold text-xs">VS</span>
           </div>
@@ -79,10 +90,15 @@ export function GameCard({
               loading="lazy"
             />
           </AspectRatio>
+
+          {time2.goal && (
+            <div className="absolute bottom-1 right-14 rounded-md  flex items-center justify-center w-10 h-10 bg-zinc-900">
+              <span className="text-3xl">{time2.goal}</span>
+            </div>
+          )}
         </CardHeader>
-      </Link>
-      <Link href={`/`} tabIndex={-1}>
-        <CardContent className="p-0 py-4 bg-zinc-900">
+
+        <CardContent className="p-0 py-2 bg-zinc-900">
           <div className="grid grid-cols-2 gap-2 w-full">
             <div className="">
               <CardTitle className="line-clamp-1 text-center text-sm uppercase">
@@ -97,21 +113,26 @@ export function GameCard({
             </div>
           </div>
 
-          <div className="w-full mt-4 items-center flex justify-between px-2">
-            <div className="">
-              <span className="text-lg uppercase">{date}</span>
+          {status === 'Finalizado' ? null : (
+            <div className="w-full mt-4 items-center flex justify-between px-2">
+              <div className="">
+                <span className="text-lg uppercase">{date}</span>
+              </div>
+              <div className="">
+                <span className="text-3xl uppercase">{hour}</span>
+              </div>
             </div>
-            <div className="">
-              <span className="text-3xl uppercase">{hour}</span>
-            </div>
-          </div>
+          )}
         </CardContent>
-      </Link>
-      <CardFooter className="p-4 ">
-        <div className="flex w-full items-center justify-center space-x-2">
-          <span className="text-xs block uppercase text-center">{stadium}</span>
-        </div>
-      </CardFooter>
-    </Card>
+
+        <CardFooter className="p-4 ">
+          <div className="flex w-full items-center justify-center space-x-2">
+            <span className="text-xs block uppercase text-center">
+              {stadium}
+            </span>
+          </div>
+        </CardFooter>
+      </Card>
+    </Link>
   )
 }
