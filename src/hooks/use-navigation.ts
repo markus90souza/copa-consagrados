@@ -21,7 +21,7 @@ const useNavigation = () => {
       case '/':
         setIsHomeActive(true)
         break
-      case '/grupos':
+      case '/artilheiro':
         setIsGruposActive(true)
         break
       case '/classificacao':

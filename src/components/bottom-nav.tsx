@@ -28,7 +28,7 @@ const BottomNav = () => {
           )}
           {/* <span className="h-2 w-2 rounded-full bg-sky-500 absolute -top-0.5 right-[3px]"></span> */}
         </Link>
-        <Link href="/grupos" className="flex items-center">
+        <Link href="/artilheiro" className="flex items-center">
           {isGruposActive ? (
             <Icon
               icon="uil:search"
