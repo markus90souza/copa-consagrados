@@ -1,16 +1,10 @@
 export const statitics = [
   {
     time1: {
-      name: 'REVOADA',
-      shield: '/times/revoada.png',
-      goals: 4,
-      playerGoals: [
-        {
-          name: 'Pedro Wilson',
-          goals: 4,
-          number: 15,
-        },
-      ],
+      name: 'América',
+      shield: '/times/america.png',
+      goals: 0,
+      playerGoals: [],
       cartoes: 0,
       ca: 0,
       cv: 0,
@@ -18,9 +12,9 @@ export const statitics = [
       faltas: 5,
     },
     time2: {
-      name: 'BARCELONA 11',
-      shield: '/times/barca11.png',
-      goals: 5,
+      name: 'Donos da rua',
+      shield: '/times/donos-da-rua.png',
+      goals: 0,
       playerGoals: [
         {
           name: 'Cleberson',

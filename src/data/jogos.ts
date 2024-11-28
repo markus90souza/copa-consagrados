@@ -69,6 +69,7 @@ export const jogos = [
     date: 'Quinta, 28/11/2024',
     time: '19:00',
     stadium: 'Quadra Poliesportiva AG 11',
+    link: '/partida/fase-01/serrado-x-real-12',
   },
 
   {
@@ -84,6 +85,7 @@ export const jogos = [
     date: 'Quinta, 28/11/2024',
     time: '20:00',
     stadium: 'Quadra Poliesportiva AG 11',
+    link: '/partida/fase-01/america-x-donos-da-rua',
   },
 
   {
@@ -99,6 +101,7 @@ export const jogos = [
     date: 'Quinta, 28/11/2024',
     time: '21:00',
     stadium: 'Quadra Poliesportiva AG 11',
+    link: '/partida/fase-01/florentina-x-atletico-taquari',
   },
 
   {
