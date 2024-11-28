@@ -4,7 +4,13 @@ export const statitics = [
       name: 'América',
       shield: '/times/america.png',
       goals: 0,
-      playerGoals: [],
+      playerGoals: [
+        {
+          name: 'Pedro Wilson',
+          goals: 4,
+          number: 15,
+        },
+      ],
       cartoes: 0,
       ca: 0,
       cv: 0,

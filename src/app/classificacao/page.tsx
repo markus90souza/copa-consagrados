@@ -6,78 +6,57 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table'
+import { artilheiro } from '@/data/artilheiro'
 import Image from 'next/image'
+import React from 'react'
+import { ScrollArea } from '@/components/ui/scroll-area'
 
-const data = [
-  {
-    pos: 1,
-    name: 'Revoada',
-    sku: 'RVD',
-    shield: '/images/revoada.png',
-    goals: 0,
-    points: 0,
-    j: 0,
-    v: 0,
-    d: 0,
-    gf: 0,
-    gc: 0,
-    sg: 0,
-  },
-  {
-    pos: 2,
-    name: 'Barça 11',
-    sku: 'BAR',
-    shield: '/images/barca11.svg',
-    goals: 0,
-    points: 0,
-    j: 0,
-    v: 0,
-    d: 0,
-    gf: 0,
-    gc: 0,
-    sg: 0,
-  },
-]
-
-export default function ClassificacaoPage() {
+const ClassifacaoPage = () => {
   return (
-    <div className="px-4">
-      <Table className="space-x-4">
+    <Table>
+      <ScrollArea className="h-fit pb-14">
         <TableHeader>
-          <TableRow>
-            <TableHead className="w-3">POS</TableHead>
-            <TableHead className="w-full">EQUIPE</TableHead>
-            <TableHead className="w-3">PTS</TableHead>
-            <TableHead className="w-3">J</TableHead>
-            <TableHead className="w-3">V</TableHead>
-            <TableHead className="w-3">D</TableHead>
-            <TableHead className="w-3">GF</TableHead>
-            <TableHead className="w-3">GC</TableHead>
-            <TableHead className="w-3">SG</TableHead>
-          </TableRow>
+          <TableHead className="w-10">POS</TableHead>
+          <TableHead className="w-[100px]">Jogador</TableHead>
+          <TableHead className="">Time</TableHead>
+          <TableHead className="w-10">Gols</TableHead>
         </TableHeader>
-        <TableBody className="border-l-2 space-x-4 border-green-600">
-          {data.map((item) => (
-            <TableRow key={item.name}>
-              <TableCell className="">{item.pos}</TableCell>
-              <TableCell className="flex gap-2 items-center">
-                {item.shield && (
-                  <Image src={item.shield} alt="" width={32} height={32} />
-                )}
+        <TableBody>
+          {artilheiro
+            .sort((a, b) => a.pos - b.pos)
+            .map((item, index) => (
+              <TableRow key={index}>
+                <TableCell className="font-mono text-sm text-center font-medium">
+                  {item.pos}
+                </TableCell>
 
-                {item.name}
-              </TableCell>
-              <TableCell>{item.points}</TableCell>
-              <TableCell>{item.j}</TableCell>
-              <TableCell>{item.v}</TableCell>
-              <TableCell>{item.d}</TableCell>
-              <TableCell>{item.gf}</TableCell>
-              <TableCell>{item.gc}</TableCell>
-              <TableCell>{item.sg}</TableCell>
-            </TableRow>
-          ))}
+                <TableCell className="text-muted-foreground uppercase text-xs">
+                  {item.name}
+                </TableCell>
+
+                <TableCell>
+                  <div className="flex items-center gap-2">
+                    <div className="w-10">
+                      <Image
+                        src={item.shield}
+                        alt=""
+                        width={100}
+                        height={100}
+                      />
+                    </div>
+                    <span className="text-xs uppercase">{item.time}</span>
+                  </div>
+                </TableCell>
+
+                <TableCell className="font-medium text-center">
+                  {item.goals}
+                </TableCell>
+              </TableRow>
+            ))}
         </TableBody>
-      </Table>
-    </div>
+      </ScrollArea>
+    </Table>
   )
 }
+
+export default ClassifacaoPage

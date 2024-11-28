@@ -118,20 +118,20 @@ export const jogos = [
     time: '18:00',
     stadium: 'Quadra Poliesportiva AG 11',
   },
-  {
-    time1: {
-      name: 'Real Madruga',
-      shield: '/times/real-madruga.png',
-    },
-    time2: {
-      name: 'Velho Oeste',
-      shield: '/times/velho-oeste.png',
-    },
-    rodada: 'Primeira Rodada',
-    date: 'Sábado, 30/11/2024',
-    time: '19:00',
-    stadium: 'Quadra Poliesportiva AG 11',
-  },
+  // {
+  //   time1: {
+  //     name: 'Real Madruga',
+  //     shield: '/times/real-madruga.png',
+  //   },
+  //   time2: {
+  //     name: 'Velho Oeste',
+  //     shield: '/times/velho-oeste.png',
+  //   },
+  //   rodada: 'Primeira Rodada',
+  //   date: 'Sábado, 30/11/2024',
+  //   time: '19:00',
+  //   stadium: 'Quadra Poliesportiva AG 11',
+  // },
 
   {
     time1: {
