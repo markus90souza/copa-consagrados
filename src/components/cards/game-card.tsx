@@ -92,7 +92,7 @@ export function GameCard({
           </AspectRatio>
 
           {time2.goal && (
-            <div className="absolute bottom-4 right-24 rounded-md  flex items-center justify-center w-10 h-10 bg-zinc-900">
+            <div className="absolute bottom-4 right-[72px] rounded-md  flex items-center justify-center w-10 h-10 bg-zinc-900">
               <span className="text-3xl">{time2.goal}</span>
             </div>
           )}
