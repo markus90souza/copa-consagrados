@@ -115,7 +115,7 @@ export const jogos = [
     },
     rodada: 'Primeira Rodada',
     date: 'Sábado, 30/11/2024',
-    time: '18:00',
+    time: '19:00',
     stadium: 'Quadra Poliesportiva AG 11',
   },
   // {
