@@ -72,12 +72,12 @@ export function GameCard({
           </AspectRatio>
 
           {time1.goal && (
-            <div className="absolute left-14 bottom-1 rounded-md  flex items-center justify-center w-10 h-10 bg-zinc-900">
+            <div className="absolute left-24 bottom-4 rounded-md  flex items-center justify-center w-10 h-10 bg-zinc-900">
               <span className="text-3xl">{time1.goal}</span>
             </div>
           )}
 
-          <div className="w-6 h-6 flex items-center bg-zinc-900 justify-center absolute top-1/2 left-1/2 z-50 transform -translate-x-1/2 -translate-y-1/2 rounded-md">
+          <div className="w-8 h-8 flex items-center bg-zinc-900 justify-center absolute top-1/2 left-1/2 z-50 transform -translate-x-[60%] -translate-y-1/2 rounded-md">
             <span className="font-bold text-xs">VS</span>
           </div>
           <AspectRatio ratio={4 / 3}>
@@ -92,7 +92,7 @@ export function GameCard({
           </AspectRatio>
 
           {time2.goal && (
-            <div className="absolute bottom-1 right-14 rounded-md  flex items-center justify-center w-10 h-10 bg-zinc-900">
+            <div className="absolute bottom-4 right-24 rounded-md  flex items-center justify-center w-10 h-10 bg-zinc-900">
               <span className="text-3xl">{time2.goal}</span>
             </div>
           )}
