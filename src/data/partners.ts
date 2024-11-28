@@ -39,4 +39,9 @@ export const partners = [
     name: 'Supermercado Tio correia',
     image: '/partners/tio-correia.png',
   },
+  {
+    id: 9,
+    name: 'Edivaldo Lanches',
+    image: '/partners/edivaldo.png',
+  },
 ]
