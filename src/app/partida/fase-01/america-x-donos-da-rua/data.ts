@@ -11,7 +11,7 @@ export const statitics = [
           number: 7,
         },
         {
-          name: 'Italo tiago',
+          name: 'Italo',
           goals: 3,
           number: 88,
         },
@@ -43,7 +43,7 @@ export const statitics = [
           number: 8,
         },
         {
-          name: 'Italo tiagp (Gol Contra)',
+          name: 'Italo (Gol Contra)',
           goals: 1,
           number: 88,
         },
