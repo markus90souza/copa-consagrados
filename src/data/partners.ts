@@ -44,4 +44,9 @@ export const partners = [
     name: 'Edivaldo Lanches',
     image: '/partners/edivaldo.png',
   },
+  {
+    id: 10,
+    name: 'Prefeitura de Serra do Ramalho',
+    image: '/partners/prefeitura.png',
+  },
 ]

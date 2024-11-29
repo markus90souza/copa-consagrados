@@ -8,7 +8,6 @@ import {
 } from '@/components/ui/table'
 import { artilheiro } from '@/data/artilheiro'
 import Image from 'next/image'
-import React from 'react'
 import { ScrollArea } from '@/components/ui/scroll-area'
 
 const ArtilheiroPage = () => {
