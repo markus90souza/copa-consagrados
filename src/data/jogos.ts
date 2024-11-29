@@ -60,15 +60,18 @@ export const jogos = [
     time1: {
       name: 'Serrado',
       shield: '/times/serrado.png',
+      goals: 8,
     },
     time2: {
       name: 'Real 12',
       shield: '/times/real12.png',
+      goals: 4,
     },
     rodada: 'Primeira Rodada',
     date: 'Quinta, 28/11/2024',
     time: '19:00',
     stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Finalizado',
     link: '/partida/fase-01/serrado-x-real-12',
   },
 
@@ -76,15 +79,18 @@ export const jogos = [
     time1: {
       name: 'América',
       shield: '/times/america.png',
+      goals: 8,
     },
     time2: {
       name: 'Donos da rua',
       shield: '/times/donos-da-rua.png',
+      goals: 2,
     },
     rodada: 'Primeira Rodada',
     date: 'Quinta, 28/11/2024',
     time: '20:00',
     stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Finalizado',
     link: '/partida/fase-01/america-x-donos-da-rua',
   },
 
@@ -92,15 +98,18 @@ export const jogos = [
     time1: {
       name: 'Florentina',
       shield: '/times/florentina.png',
+      goals: 5,
     },
     time2: {
       name: 'Atlético Taquari',
       shield: '/times/atletico-taquari.png',
+      goals: 6,
     },
     rodada: 'Primeira Rodada',
     date: 'Quinta, 28/11/2024',
     time: '21:00',
     stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Finalizado',
     link: '/partida/fase-01/florentina-x-atletico-taquari',
   },
 
