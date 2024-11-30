@@ -15,10 +15,10 @@ const ArtilheiroPage = () => {
     <Table>
       <ScrollArea className="h-fit pb-14">
         <TableHeader>
-          <TableHead className="w-10">POS</TableHead>
-          <TableHead className="w-[100px]">Jogador</TableHead>
-          <TableHead className="">Time</TableHead>
-          <TableHead className="w-10">Gols</TableHead>
+          <TableHead className="w-10 uppercase">POS</TableHead>
+          <TableHead className="uppercase">Jogador</TableHead>
+          <TableHead className="uppercase">Time</TableHead>
+          <TableHead className="w-10 uppercase">Gols</TableHead>
         </TableHeader>
         <TableBody>
           {artilheiro
