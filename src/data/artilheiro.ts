@@ -1,4 +1,5 @@
 export const artilheiro = [
+  // Revoada
   {
     pos: 2,
     name: 'Pedro Wilson',
@@ -7,6 +8,7 @@ export const artilheiro = [
     time: 'REVOADA',
     shield: '/times/revoada.png',
   },
+  // Barcelona 11
   {
     pos: 4,
     name: 'Cleberson',
@@ -16,7 +18,7 @@ export const artilheiro = [
     shield: '/times/barca11.png',
   },
   {
-    pos: 13,
+    pos: 5,
     name: 'Adriano',
     goals: 1,
     number: 10,
@@ -24,13 +26,22 @@ export const artilheiro = [
     shield: '/times/barca11.png',
   },
   {
-    pos: 12,
+    pos: 5,
     name: 'Ronald',
     goals: 1,
     number: 11,
     time: 'BARCELONA 11',
     shield: '/times/barca11.png',
   },
+  {
+    pos: 5,
+    name: 'Doty',
+    goals: 1,
+    number: 9,
+    time: 'BARCELONA 11',
+    shield: '/times/barca11.png',
+  },
+  // Galácticos
   {
     pos: 1,
     name: 'Icaro',
@@ -48,23 +59,24 @@ export const artilheiro = [
     shield: '/times/galacticos.png',
   },
   {
-    pos: 9,
-    name: 'André',
+    pos: 5,
+    name: 'André (G)',
     goals: 1,
     number: 1,
     time: 'Galácticos',
     shield: '/times/galacticos.png',
   },
   {
-    pos: 5,
+    pos: 4,
     name: 'Geba',
     goals: 2,
     number: 9,
     time: 'Galácticos',
     shield: '/times/galacticos.png',
   },
+  // PSG Pituba
   {
-    pos: 6,
+    pos: 5,
     name: 'Jhonatan',
     goals: 1,
     number: 11,
@@ -72,7 +84,7 @@ export const artilheiro = [
     shield: '/times/psg-pituba.png',
   },
   {
-    pos: 7,
+    pos: 5,
     name: 'Ezio',
     goals: 1,
     number: 14,
@@ -80,15 +92,16 @@ export const artilheiro = [
     shield: '/times/psg-pituba.png',
   },
   {
-    pos: 8,
-    name: 'Pedro',
+    pos: 5,
+    name: 'Pedro (G)',
     goals: 1,
     number: 1,
     time: 'PSG Pituba',
     shield: '/times/psg-pituba.png',
   },
+  // Doces Souza
   {
-    pos: 10,
+    pos: 5,
     name: 'Frederico',
     goals: 1,
     number: 11,
@@ -96,7 +109,7 @@ export const artilheiro = [
     shield: '/times/doces-souza.png',
   },
   {
-    pos: 11,
+    pos: 5,
     name: 'Tauan',
     goals: 1,
     number: 14,
@@ -104,11 +117,171 @@ export const artilheiro = [
     shield: '/times/doces-souza.png',
   },
   {
-    pos: 14,
+    pos: 5,
     name: 'Eric',
     goals: 1,
     number: 1,
     time: 'DOCES SOUZA',
     shield: '/times/doces-souza.png',
+  },
+  // Serrado
+  {
+    pos: 4,
+    name: 'Altino',
+    goals: 2,
+    number: 17,
+    time: 'Serrado',
+    shield: '/times/serrado.png',
+  },
+  {
+    pos: 4,
+    name: 'Rodrigo',
+    goals: 2,
+    number: 18,
+    time: 'Serrado',
+    shield: '/times/serrado.png',
+  },
+
+  {
+    pos: 3,
+    name: 'Elisvaldo',
+    goals: 3,
+    number: 12,
+    time: 'Serrado',
+    shield: '/times/serrado.png',
+  },
+  {
+    pos: 5,
+    name: 'Luiz Eduardo',
+    goals: 1,
+    number: 10,
+    time: 'Serrado',
+    shield: '/times/serrado.png',
+  },
+  // Real 12
+  {
+    pos: 5,
+    name: 'David',
+    goals: 1,
+    number: 41,
+    time: 'Real 12',
+    shield: '/times/real12.png',
+  },
+
+  {
+    pos: 4,
+    name: 'José Luiz',
+    goals: 2,
+    number: 30,
+    time: 'Real 12',
+    shield: '/times/real12.png',
+  },
+  {
+    pos: 5,
+    name: 'Evandro',
+    goals: 1,
+    number: 38,
+    time: 'Real 12',
+    shield: '/times/real12.png',
+  },
+  // América
+  {
+    pos: 4,
+    name: 'Eduardo',
+    goals: 2,
+    number: 7,
+    time: 'América',
+    shield: '/times/america.png',
+  },
+  {
+    pos: 3,
+    name: 'Italo',
+    goals: 3,
+    number: 88,
+    time: 'América',
+    shield: '/times/america.png',
+  },
+  {
+    pos: 5,
+    name: 'Iago',
+    goals: 1,
+    number: 1,
+    time: 'América',
+    shield: '/times/america.png',
+  },
+  {
+    pos: 4,
+    name: 'Joabe',
+    goals: 2,
+    number: 8,
+    time: 'América',
+    shield: '/times/america.png',
+  },
+  // Donos da rua
+  {
+    pos: 5,
+    name: 'Breno',
+    goals: 1,
+    number: 8,
+    time: 'Donos da rua',
+    shield: '/times/donos-da-rua.png',
+  },
+  // Florentina
+  {
+    pos: 4,
+    name: 'Alessandro (G)',
+    goals: 2,
+    number: 1,
+    time: 'Florentino',
+    shield: '/times/florentina.png',
+  },
+  {
+    pos: 5,
+    name: 'Edivanildo',
+    goals: 1,
+    number: 5,
+    time: 'Florentino',
+    shield: '/times/florentina.png',
+  },
+  {
+    pos: 5,
+    name: 'Edson',
+    goals: 1,
+    number: 6,
+    time: 'Florentino',
+    shield: '/times/florentina.png',
+  },
+  {
+    pos: 5,
+    name: 'Cleison',
+    goals: 1,
+    number: 21,
+    time: 'Florentino',
+    shield: '/times/florentina.png',
+  },
+  // Atlético Taquari
+  {
+    pos: 3,
+    name: 'Pedro (G)',
+    goals: 3,
+    number: 5,
+    time: 'Atlético Taquari',
+    shield: '/times/atletico-taquari.png',
+  },
+  {
+    pos: 4,
+    name: 'Renan',
+    goals: 2,
+    number: 9,
+    time: 'Atlético Taquari',
+    shield: '/times/atletico-taquari.png',
+  },
+  {
+    pos: 5,
+    name: 'Luiz Eduardo',
+    goals: 1,
+    number: 3,
+    time: 'Atlético Taquari',
+    shield: '/times/atletico-taquari.png',
   },
 ]
