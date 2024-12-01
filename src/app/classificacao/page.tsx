@@ -35,7 +35,7 @@ const ClassifacaoPage = () => {
           </TableHeader>
           <TableBody>
             {grupoA
-              .sort((a, b) => a.id - b.id)
+              .sort((a, b) => a.pts - b.pts)
               .map((item, index) => (
                 <TableRow key={index}>
                   <TableCell className="font-mono text-sm text-center font-medium">
@@ -102,7 +102,7 @@ const ClassifacaoPage = () => {
           </TableHeader>
           <TableBody>
             {grupoB
-              .sort((a, b) => a.id - b.id)
+              .sort((a, b) => a.pts - b.pts)
               .map((item, index) => (
                 <TableRow key={index}>
                   <TableCell className="font-mono text-sm text-center font-medium">
@@ -169,7 +169,7 @@ const ClassifacaoPage = () => {
           </TableHeader>
           <TableBody>
             {grupoC
-              .sort((a, b) => a.id - b.id)
+              .sort((a, b) => a.pts - b.pts)
               .map((item, index) => (
                 <TableRow key={index}>
                   <TableCell className="font-mono text-sm text-center font-medium">
@@ -236,7 +236,7 @@ const ClassifacaoPage = () => {
           </TableHeader>
           <TableBody>
             {grupoD
-              .sort((a, b) => a.id - b.id)
+              .sort((a, b) => a.pts - b.pts)
               .map((item, index) => (
                 <TableRow key={index}>
                   <TableCell className="font-mono text-sm text-center font-medium">
@@ -303,7 +303,7 @@ const ClassifacaoPage = () => {
           </TableHeader>
           <TableBody>
             {grupoE
-              .sort((a, b) => a.id - b.id)
+              .sort((a, b) => a.pts - b.pts)
               .map((item, index) => (
                 <TableRow key={index}>
                   <TableCell className="font-mono text-sm text-center font-medium">
