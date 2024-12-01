@@ -19,7 +19,7 @@ import { Badge } from '../ui/badge'
 type Time = {
   name?: string
   shield: StaticImageData | string
-  goal: number
+  goal: number | string
 }
 
 interface ProductCardProps extends React.HTMLAttributes<HTMLDivElement> {

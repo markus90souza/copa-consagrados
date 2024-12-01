@@ -117,15 +117,19 @@ export const jogos = [
     time1: {
       name: 'MILAN',
       shield: '/times/milan.png',
+      goals: 0,
     },
     time2: {
       name: 'JUVENTOS',
       shield: '/times/juventos.png',
+      goals: 1,
     },
     rodada: 'Primeira Rodada',
     date: 'Sábado, 30/11/2024',
     time: '19:00',
     stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Finalizado',
+    link: '/partida/fase-01/milan-x-juventos',
   },
   // {
   //   time1: {
@@ -146,28 +150,36 @@ export const jogos = [
     time1: {
       name: 'FÊNIX',
       shield: '/times/fenix.png',
+      goals: 5,
     },
     time2: {
       name: 'VILA REAL',
       shield: '/times/vila-real.png',
+      goals: 7,
     },
     rodada: 'Primeira Rodada',
     date: 'Sábado, 30/11/2024',
     time: '20:00',
     stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Finalizado',
+    link: '/partida/fase-01/fenix-x-vila-real',
   },
   {
     time1: {
       name: 'BIQUEIRA',
       shield: '/times/biqueira.png',
+      goals: 12,
     },
     time2: {
       name: 'BAHIA 10',
       shield: '/times/bahia.png',
+      goals: 2,
     },
     rodada: 'Primeira Rodada',
     date: 'Sábado, 30/11/2024',
     time: '21:00',
     stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Finalizado',
+    link: '/partida/fase-01/biqueira-x-bahia-10',
   },
 ]

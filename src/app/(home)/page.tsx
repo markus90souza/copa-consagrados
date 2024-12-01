@@ -33,12 +33,12 @@ export default function Home() {
                   name: item.time1.name,
                   shield: item.time1.shield,
 
-                  goal: item.time1.goals ? item.time1.goals : 0,
+                  goal: item.time1.goals ? item.time1.goals : '0',
                 }}
                 time2={{
                   name: item.time2.name,
                   shield: item.time2.shield,
-                  goal: item.time2.goals ? item.time2.goals : 0,
+                  goal: item.time2.goals ? item.time2.goals : '0',
                 }}
                 round={item.rodada}
                 date={item.date}
