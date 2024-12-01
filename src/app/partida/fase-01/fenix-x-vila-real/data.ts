@@ -1,63 +1,63 @@
 export const statitics = [
   {
     time1: {
-      name: 'serrado',
-      shield: '/times/serrado.png',
-      goals: 8,
-      playerGoals: [
-        {
-          name: 'Elisvaldo',
-          goals: 3,
-          number: 12,
-        },
-        {
-          name: 'Altino',
-          goals: 2,
-          number: 17,
-        },
-        {
-          name: 'Rodrigo',
-          goals: 2,
-          number: 18,
-        },
-        {
-          name: 'Eduardo',
-          goals: 1,
-          number: 10,
-        },
-      ],
-      cartoes: 1,
-      ca: 1,
-      cv: 0,
-      expulsoes: 0,
-      faltas: 6,
-    },
-    time2: {
-      name: 'Real 12',
-      shield: '/times/real12.png',
+      name: 'Fênix',
+      shield: '/times/fenix.png',
       goals: 5,
       playerGoals: [
         {
-          name: 'Zé luis',
+          name: 'Vitor',
           goals: 2,
-          number: 30,
+          number: 5,
         },
         {
           name: 'Davi',
           goals: 1,
-          number: 41,
+          number: 9,
         },
         {
-          name: 'Evandro',
+          name: 'Micael',
           goals: 1,
-          number: 38,
+          number: 7,
+        },
+        {
+          name: 'Jean silva',
+          goals: 1,
+          number: 10,
         },
       ],
-      cartoes: 1,
-      ca: 1,
+      cartoes: 3,
+      ca: 3,
       cv: 0,
       expulsoes: 0,
-      faltas: 4,
+      faltas: 7,
+    },
+    time2: {
+      name: 'Vila Real',
+      shield: '/times/vila-real.png',
+      goals: 7,
+      playerGoals: [
+        {
+          name: 'Igor Maia',
+          goals: 1,
+          number: 10,
+        },
+        {
+          name: 'Jhon cleiton',
+          goals: 4,
+          number: 11,
+        },
+        {
+          name: 'Italo',
+          goals: 1,
+          number: 9,
+        },
+      ],
+      cartoes: 2,
+      ca: 2,
+      cv: 0,
+      expulsoes: 0,
+      faltas: 7,
     },
   },
 ]
