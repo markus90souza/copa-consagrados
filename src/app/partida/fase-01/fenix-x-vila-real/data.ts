@@ -43,7 +43,7 @@ export const statitics = [
           number: 10,
         },
         {
-          name: 'Jhon cleiton',
+          name: 'Dhon cleiton',
           goals: 4,
           number: 11,
         },
