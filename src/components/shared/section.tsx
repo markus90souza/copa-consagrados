@@ -28,10 +28,10 @@ export function Section({
   const ChildrenShell = asChild ? Slot : 'div'
 
   return (
-    <section className={cn('space-y-6', className)} {...props}>
+    <section className={cn('space-y-4', className)} {...props}>
       <div className="flex items-center justify-between gap-4">
         <div className="max-w-[58rem] flex-1 space-y-1">
-          <h2 className="font-heading text-2xl sm:text-3xl font-bold leading-[1.1] md:text-4xl">
+          <h2 className="font-heading uppercase text-2xl sm:text-3xl font-bold leading-[1.1] md:text-4xl">
             {title}
           </h2>
           {description ? (
@@ -55,7 +55,7 @@ export function Section({
         <ChildrenShell
           className={cn(
             !asChild &&
-              'grid gap-4 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4',
+              'grid gap-3 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4',
           )}
         >
           {children}
