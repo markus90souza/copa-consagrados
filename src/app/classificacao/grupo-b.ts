@@ -18,7 +18,7 @@ export const grupoB = [
     image: '/times/juventos.png',
     pts: 3,
     j: 1,
-    v: 0,
+    v: 1,
     e: 0,
     d: 0,
     gf: 1,
