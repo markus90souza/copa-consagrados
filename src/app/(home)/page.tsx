@@ -53,7 +53,7 @@ export default function Home() {
 
       <div className="w-full">
         <Shell className="max-w-7xl mx-auto px-4">
-          <Section title="Jogos da primeira rodada" href="#">
+          <Section title="Jogos da segunda rodada" href="#">
             {segundaRodada.map((item, index) => (
               <GameCard
                 key={index}
