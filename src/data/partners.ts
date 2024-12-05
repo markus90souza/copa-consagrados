@@ -49,4 +49,14 @@ export const partners = [
     name: 'Prefeitura de Serra do Ramalho',
     image: '/partners/prefeitura.png',
   },
+  {
+    id: 11,
+    name: 'Serrado',
+    image: '/partners/serrado.png',
+  },
+  {
+    id: 12,
+    name: 'Véi da 11',
+    image: '/partners/vei.png',
+  },
 ]
