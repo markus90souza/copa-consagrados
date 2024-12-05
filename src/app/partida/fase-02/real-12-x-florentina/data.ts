@@ -39,8 +39,13 @@ export const statitics = [
         },
         {
           name: 'Luiz Gustavo',
-          goals: 2,
+          goals: 1,
           number: 9,
+        },
+        {
+          name: 'Eduardo',
+          goals: 1,
+          number: 8,
         },
         {
           name: 'Edvanildo',
