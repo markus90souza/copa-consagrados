@@ -42,7 +42,7 @@ export const grupoC = [
     id: 4,
     name: 'Serrado',
     image: '/times/serrado.png',
-    pts: 8,
+    pts: 6,
     j: 2,
     v: 2,
     e: 0,
