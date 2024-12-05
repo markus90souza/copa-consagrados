@@ -16,7 +16,7 @@ const TimeCard: FC<TimeCardProps> = ({ image, name, size = 176, goals }) => {
         <Image className="" alt="" width={size} height={size} src={image} />
       </div>
       <div className="">
-        <strong className="font-semibold line-clamp-1 text-center text-2xl md:text-3xl">
+        <strong className="font-semibold uppercase line-clamp-1 text-center text-2xl md:text-3xl">
           {name}
         </strong>
       </div>
