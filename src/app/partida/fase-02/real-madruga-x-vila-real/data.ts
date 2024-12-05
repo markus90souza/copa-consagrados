@@ -25,6 +25,11 @@ export const statitics = [
           goals: 2,
           number: 5,
         },
+        {
+          name: 'Jovelino',
+          goals: 1,
+          number: 8,
+        },
       ],
       cartoes: 7,
       ca: 6,
