@@ -131,20 +131,6 @@ export const primeiraRodada = [
     status: 'Finalizado',
     link: '/partida/fase-01/milan-x-juventos',
   },
-  // {
-  //   time1: {
-  //     name: 'Real Madruga',
-  //     shield: '/times/real-madruga.png',
-  //   },
-  //   time2: {
-  //     name: 'Velho Oeste',
-  //     shield: '/times/velho-oeste.png',
-  //   },
-  //   rodada: 'Primeira Rodada',
-  //   date: 'Sábado, 30/11/2024',
-  //   time: '19:00',
-  //   stadium: 'Quadra Poliesportiva AG 11',
-  // },
 
   {
     time1: {
@@ -189,101 +175,134 @@ export const segundaRodada = [
     time1: {
       name: 'Real Madruga',
       shield: '/times/real-madruga.png',
-      goals: 0,
+      goals: 7,
     },
     time2: {
       name: 'Vila Real',
       shield: '/times/vila-real.png',
-      goals: 0,
+      goals: 6,
     },
     rodada: 'Segunda Rodada',
     date: 'Terça, 03/12/2024',
     time: '19:00',
     stadium: 'Quadra Poliesportiva AG 11',
-    status: 'Em andamento',
+    status: 'Finalizado',
+    link: '/partida/fase-02/real-madruga-x-vila-real',
   },
 
   {
     time1: {
       name: 'Real 12',
       shield: '/times/real12.png',
-      goals: 0,
+      goals: 6,
     },
     time2: {
       name: 'Florentina',
       shield: '/times/florentina.png',
-      goals: 0,
+      goals: 7,
     },
     rodada: 'Segunda Rodada',
     date: 'Terça, 03/12/2024',
     time: '20:00',
     stadium: 'Quadra Poliesportiva AG 11',
-    status: 'Em andamento',
+    status: 'Finalizado',
+    link: '/partida/fase-02/real-12-x-florentina',
   },
 
   {
     time1: {
       name: 'Serrado',
       shield: '/times/serrado.png',
-      goals: 0,
+      goals: 8,
     },
     time2: {
       name: 'Atlético Taquari',
       shield: '/times/atletico-taquari.png',
+      goals: 4,
+    },
+    rodada: 'Segunda Rodada',
+    date: 'Terça, 03/12/2024',
+    time: '21:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Em andamento',
+    link: '/partida/fase-02/serrado-x-atletico-taquari',
+  },
+
+  {
+    time1: {
+      name: 'Juventos',
+      shield: '/times/juventos.png',
       goals: 0,
     },
-    rodada: 'Primeira Rodada',
-    date: 'Terça, 03/12/2024',
+    time2: {
+      name: 'Donos da rua',
+      shield: '/times/donos-da-rua.png',
+      goals: 0,
+    },
+    rodada: 'Segunda Rodada',
+    date: 'Quinta, 05/12/2024',
+    time: '19:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Em andamento',
+    link: '#',
+  },
+
+  {
+    time1: {
+      name: 'América',
+      shield: '/times/america.png',
+      goals: 0,
+    },
+    time2: {
+      name: 'Milan',
+      shield: '/times/milan.png',
+      goals: 0,
+    },
+    rodada: 'Segunda Rodada',
+    date: 'Quinta, 05/12/2024',
+    time: '20:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Em andamento',
+    link: '#',
+  },
+
+  {
+    time1: {
+      name: 'psg pituba',
+      shield: '/times/psg-pituba.png',
+      goals: 0,
+    },
+    time2: {
+      name: 'Morro da Providência',
+      shield: '/times/morro.png',
+      goals: 0,
+    },
+    rodada: 'Segunda Rodada',
+    date: 'Quinta, 05/12/2024',
     time: '21:00',
     stadium: 'Quadra Poliesportiva AG 11',
     status: 'Em andamento',
     link: '#',
   },
 
-  // {
-  //   time1: {
-  //     name: 'Biqueira',
-  //     shield: '/times/biqueira.png',
-  //   },
-  //   time2: {
-  //     name: 'Revoada',
-  //     shield: '/times/revoada.png',
-  //   },
-  //   rodada: 'Segunda Rodada',
-  //   date: 'Quinta, 05/12/2024',
-  //   time: '19:00',
-  //   stadium: 'Quadra Poliesportiva AG 11',
-  // },
-
-  // {
-  //   time1: {
-  //     name: 'Juventos',
-  //     shield: '/times/juventos.png',
-  //   },
-  //   time2: {
-  //     name: 'América',
-  //     shield: '/times/america.png',
-  //   },
-  //   rodada: 'Primeira Rodada',
-  //   date: 'Quinta, 05/12/2024',
-  //   time: '20:00',
-  //   stadium: 'Quadra Poliesportiva AG 11',
-  // },
-
-  // {
-  //   time1: {
-  //     name: 'Fênix',
-  //     shield: '/times/fenix.png',
-  //   },
-  //   time2: {
-  //     name: 'Velho Oeste',
-  //     shield: '/times/velho-oeste.png',
-  //   },
-  //   rodada: 'Primeira Rodada',
-  //   date: 'Quinta, 05/12/2024',
-  //   time: '21:00',
-  //   stadium: 'Quadra Poliesportiva AG 11',
-  // },
+  {
+    time1: {
+      name: 'Galácticos',
+      shield: '/times/galacticos.png',
+      goals: 0,
+    },
+    time2: {
+      name: 'Doces Souza',
+      shield: '/times/doces-souza.png',
+      goals: 0,
+    },
+    rodada: 'Segunda Rodada',
+    date: 'Quinta, 05/12/2024',
+    time: '22:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Em andamento',
+    link: '#',
+  },
 
   // {
   //   time1: {
