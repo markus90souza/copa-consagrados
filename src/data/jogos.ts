@@ -355,24 +355,43 @@ export const segundaRodada = [
   //   status: 'Finalizado',
   //   link: '/partida/fase-01/fenix-x-vila-real',
   // },
-  // {
-  //   time1: {
-  //     name: 'BIQUEIRA',
-  //     shield: '/times/biqueira.png',
-  //     goals: 12,
-  //   },
-  //   time2: {
-  //     name: 'BAHIA 10',
-  //     shield: '/times/bahia.png',
-  //     goals: 2,
-  //   },
-  //   rodada: 'Primeira Rodada',
-  //   date: 'Sábado, 30/11/2024',
-  //   time: '21:00',
-  //   stadium: 'Quadra Poliesportiva AG 11',
-  //   status: 'Finalizado',
-  //   link: '/partida/fase-01/biqueira-x-bahia-10',
-  // },
+  {
+    time1: {
+      name: 'BIQUEIRA',
+      shield: '/times/biqueira.png',
+      goals: 0,
+    },
+    time2: {
+      name: 'Barcelona 11',
+      shield: '/times/barca11.png',
+      goals: 0,
+    },
+    rodada: 'Segunda Rodada',
+    date: 'Sábado, 07/12/2024',
+    time: '20:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Em andamento',
+    link: '#',
+  },
+
+  {
+    time1: {
+      name: 'Bahia 10',
+      shield: '/times/bahia.png',
+      goals: 0,
+    },
+    time2: {
+      name: 'Revoada',
+      shield: '/times/revoada.png',
+      goals: 0,
+    },
+    rodada: 'Segunda Rodada',
+    date: 'Sábado, 07/12/2024',
+    time: '21:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Em andamento',
+    link: '#',
+  },
 ]
 
 export const terceiraRodada = [
