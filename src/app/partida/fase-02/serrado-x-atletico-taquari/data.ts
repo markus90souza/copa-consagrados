@@ -11,12 +11,12 @@ export const statitics = [
           number: 5,
         },
         {
-          name: 'Ailton',
+          name: 'Altino',
           goals: 1,
           number: 17,
         },
         {
-          name: 'Luiz eduardo',
+          name: 'Luiz',
           goals: 3,
           number: 10,
         },
