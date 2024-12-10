@@ -28,7 +28,7 @@ export const artilheiro = [
   {
     pos: 5,
     name: 'Ronald',
-    goals: 1,
+    goals: 3, // PRIMEIRA RODADA 1 = SEGUNDA RODADA  2
     number: 11,
     time: 'BARCELONA 11',
     shield: '/times/barca11.png',
@@ -127,8 +127,8 @@ export const artilheiro = [
   // Serrado
   {
     pos: 4,
-    name: 'Altino',
-    goals: 2,
+    name: 'Altino', // PRIMEIRA RODADA 2 = SEGUNDA RODADA  1
+    goals: 3,
     number: 17,
     time: 'Serrado',
     shield: '/times/serrado.png',
@@ -152,12 +152,30 @@ export const artilheiro = [
   },
   {
     pos: 5,
-    name: 'Luiz Eduardo',
-    goals: 1,
+    name: 'Luiz Eduardo', // PRIMEIRA RODADA 1 = SEGUNDA RODADA  3
+    goals: 4,
     number: 10,
     time: 'Serrado',
     shield: '/times/serrado.png',
   },
+  {
+    pos: 5,
+    name: 'VICTOR EZEQUIEL', // SEGUNDA RODADA  3
+    goals: 3,
+    number: 12,
+    time: 'Serrado',
+    shield: '/times/serrado.png',
+  },
+
+  {
+    pos: 10,
+    name: 'ROGÉRIO FIGUEIREDO', // SEGUNDA RODADA  1
+    goals: 1,
+    number: 5,
+    time: 'Serrado',
+    shield: '/times/serrado.png',
+  },
+
   // Real 12
   {
     pos: 5,
@@ -188,7 +206,7 @@ export const artilheiro = [
   {
     pos: 4,
     name: 'Eduardo',
-    goals: 2,
+    goals: 5, // PRIMEIRA RODADA 2 = SEGUNDA RODADA  3
     number: 7,
     time: 'América',
     shield: '/times/america.png',
@@ -196,7 +214,7 @@ export const artilheiro = [
   {
     pos: 3,
     name: 'Italo',
-    goals: 3,
+    goals: 4, // PRIMEIRA RODADA 3 = SEGUNDA RODADA  1
     number: 88,
     time: 'América',
     shield: '/times/america.png',
@@ -214,6 +232,14 @@ export const artilheiro = [
     name: 'Joabe',
     goals: 2,
     number: 8,
+    time: 'América',
+    shield: '/times/america.png',
+  },
+  {
+    pos: 10,
+    name: 'João augusto',
+    goals: 2, // Segunda Rodada 2
+    number: 21,
     time: 'América',
     shield: '/times/america.png',
   },
