@@ -360,7 +360,7 @@ export const terceiraRodada = [
     time: '19:00',
     stadium: 'Quadra Poliesportiva AG 11',
     status: 'Em andamento',
-    link: '#',
+    link: '/partida/fase-03/doces-souza-x-morro-da-providencia',
   },
 
   {
@@ -379,7 +379,7 @@ export const terceiraRodada = [
     time: '20:00',
     stadium: 'Quadra Poliesportiva AG 11',
     status: 'Em andamento',
-    link: '#',
+    link: '/partida/fase-03/america-x-juventos',
   },
 
   {
@@ -398,7 +398,7 @@ export const terceiraRodada = [
     time: '21:00',
     stadium: 'Quadra Poliesportiva AG 11',
     status: 'Em andamento',
-    link: '#',
+    link: '/partida/fase-03/atletico-taquari-x-real-12',
   },
 
   // {
