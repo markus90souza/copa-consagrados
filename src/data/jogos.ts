@@ -224,7 +224,7 @@ export const segundaRodada = [
     date: 'Terça, 03/12/2024',
     time: '21:00',
     stadium: 'Quadra Poliesportiva AG 11',
-    status: 'Em andamento',
+    status: 'Finalizado',
     link: '/partida/fase-02/serrado-x-atletico-taquari',
   },
 
@@ -244,7 +244,7 @@ export const segundaRodada = [
     time: '19:00',
     stadium: 'Quadra Poliesportiva AG 11',
     status: 'Finalizado',
-    link: '#',
+    link: '/partida/fase-02/juventos-x-donos-da-rua',
   },
 
   {
@@ -263,7 +263,7 @@ export const segundaRodada = [
     time: '20:00',
     stadium: 'Quadra Poliesportiva AG 11',
     status: 'Finalizado',
-    link: '#',
+    link: '/partida/fase-02/america-x-milan',
   },
 
   {

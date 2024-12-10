@@ -43,15 +43,14 @@ export default function Page() {
 
               <li className="flex items-center text-center gap-4 justify-between w-full border-b border-zinc-700 px-4 py-4">
                 <div className="flex flex-wrap max-w-[120px] w-full">
-                  {item.time1.playerGoals.length === 0 &&
-                    item.time1.playerGoals.map((item, index) => (
-                      <div className="" key={index}>
-                        <span className="block items-center justify-start ">
-                          {item.name}({item.number}){' - '}
-                          {item.goals}
-                        </span>
-                      </div>
-                    ))}
+                  {item.time1.playerGoals.map((item, index) => (
+                    <div className="" key={index}>
+                      <span className="block text-sm  items-center justify-start ">
+                        {item.name}({item.number}){' - '}
+                        {item.goals}
+                      </span>
+                    </div>
+                  ))}
                 </div>
 
                 <div className="flex flex-1 items-center justify-center">
