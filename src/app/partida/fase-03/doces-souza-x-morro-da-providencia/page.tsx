@@ -60,8 +60,7 @@ export default function Page() {
                   {item.time2.playerGoals.map((item, index) => (
                     <div className="flex" key={index}>
                       <span>
-                        {item.name}({item.number}){' - '}
-                        {item.goals}
+                        {item.name}({item.number}){'  '}
                       </span>
                     </div>
                   ))}

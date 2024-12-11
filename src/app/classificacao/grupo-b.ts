@@ -49,6 +49,6 @@ export const grupoB = [
     d: 1,
     gf: 16,
     gc: 12,
-    gs: -4,
+    gs: 4,
   },
 ]

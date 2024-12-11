@@ -348,7 +348,7 @@ export const terceiraRodada = [
     time1: {
       name: 'Doces Souza',
       shield: '/times/doces-souza.png',
-      goals: 0,
+      goals: 1,
     },
     time2: {
       name: 'Morro da Providência',
@@ -359,7 +359,7 @@ export const terceiraRodada = [
     date: 'Terça, 10/12/2024',
     time: '19:00',
     stadium: 'Quadra Poliesportiva AG 11',
-    status: 'Em andamento',
+    status: 'Finalizado',
     link: '/partida/fase-03/doces-souza-x-morro-da-providencia',
   },
 
@@ -367,18 +367,18 @@ export const terceiraRodada = [
     time1: {
       name: 'América',
       shield: '/times/america.png',
-      goals: 0,
+      goals: 19,
     },
     time2: {
       name: 'Juventos',
       shield: '/times/juventos.png',
-      goals: 0,
+      goals: 1,
     },
     rodada: 'Terceira Rodada',
     date: 'Terça, 10/12/2024',
     time: '20:00',
     stadium: 'Quadra Poliesportiva AG 11',
-    status: 'Em andamento',
+    status: 'Finalizado',
     link: '/partida/fase-03/america-x-juventos',
   },
 
@@ -386,18 +386,18 @@ export const terceiraRodada = [
     time1: {
       name: 'Atlético taquari',
       shield: '/times/atletico-taquari.png',
-      goals: 0,
+      goals: 9,
     },
     time2: {
       name: 'Real 12',
       shield: '/times/real12.png',
-      goals: 0,
+      goals: 5,
     },
     rodada: 'Terceira Rodada',
     date: 'Terça, 10/12/2024',
     time: '21:00',
     stadium: 'Quadra Poliesportiva AG 11',
-    status: 'Em andamento',
+    status: 'Finalizado',
     link: '/partida/fase-03/atletico-taquari-x-real-12',
   },
 
