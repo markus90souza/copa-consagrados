@@ -405,12 +405,12 @@ export const terceiraRodada = [
     time1: {
       name: 'Serrado',
       shield: '/times/serrado.png',
-      goals: 0,
+      goals: 6,
     },
     time2: {
       name: 'Florentina',
       shield: '/times/florentina.png',
-      goals: 0,
+      goals: 4,
     },
     rodada: 'Terceira Rodada',
     date: 'Quinta, 12/12/2024',
@@ -424,12 +424,12 @@ export const terceiraRodada = [
     time1: {
       name: 'Fênix',
       shield: '/times/fenix.png',
-      goals: 0,
+      goals: 3,
     },
     time2: {
       name: 'Real Madruga',
       shield: '/times/real-madruga.png',
-      goals: 0,
+      goals: 7,
     },
     rodada: 'Terceira Rodada',
     date: 'Quinta, 12/12/2024',
@@ -448,7 +448,7 @@ export const terceiraRodada = [
     time2: {
       name: 'Donos da rua',
       shield: '/times/donos-da-rua.png',
-      goals: 0,
+      goals: 1,
     },
     rodada: 'Terceira Rodada',
     date: 'Quinta, 12/12/2024',
