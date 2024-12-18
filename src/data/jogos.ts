@@ -481,18 +481,18 @@ export const terceiraRodada = [
     time1: {
       name: 'Galácticos',
       shield: '/times/galacticos.png',
-      goals: 0,
+      goals: 11,
     },
     time2: {
       name: 'PSG Pituba',
       shield: '/times/psg-pituba.png',
-      goals: 0,
+      goals: 4,
     },
     rodada: 'Terceira Rodada',
     date: 'Terça, 17/12/2024',
     time: '20:00',
     stadium: 'Quadra Poliesportiva AG 11',
-    status: 'Em andamento',
+    status: 'Finalizado',
     link: '/partida/fase-03/galacticos-x-psg-pituba',
   },
   {
