@@ -417,7 +417,7 @@ export const terceiraRodada = [
     time: '19:00',
     stadium: 'Quadra Poliesportiva AG 11',
     status: 'Finalizado',
-    link: '/partida/fase-01/serrado-x-florentina',
+    link: '/partida/fase-03/serrado-x-florentina',
   },
 
   {
@@ -436,7 +436,7 @@ export const terceiraRodada = [
     time: '20:00',
     stadium: 'Quadra Poliesportiva AG 11',
     status: 'Finalizado',
-    link: '/partida/fase-01/fenix-x-real-madruga',
+    link: '/partida/fase-03/fenix-x-real-madruga',
   },
 
   {

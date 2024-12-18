@@ -61,9 +61,9 @@ export const statitics = [
       ],
       cartoes: 2,
       ca: 2,
-      cv: 3,
-      expulsoes: 3,
-      faltas: 8,
+      cv: 0,
+      expulsoes: 0,
+      faltas: 6,
     },
   },
 ]
