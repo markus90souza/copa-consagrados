@@ -156,7 +156,7 @@ export const artilheiro = [
     shield: '/times/galacticos.png',
   },
   {
-    pos: 9,
+    pos: 10,
     name: 'Auri',
     goals: 1, // 3 = 1;
     number: 25,
@@ -172,7 +172,7 @@ export const artilheiro = [
     shield: '/times/galacticos.png',
   },
   {
-    pos: 10,
+    pos: 9,
     name: 'Geba',
     goals: 2, // 1 = 2;
     number: 9,
@@ -213,7 +213,7 @@ export const artilheiro = [
     shield: '/times/psg-pituba.png',
   },
   {
-    pos: 10,
+    pos: 9,
     name: 'Geovane',
     goals: 2, // 1 = 1; 3 = 1;
     number: 20,
@@ -319,7 +319,7 @@ export const artilheiro = [
     shield: '/times/serrado.png',
   },
   {
-    pos: 4,
+    pos: 3,
     name: 'Luiz Eduardo',
     goals: 6, // 1 = 1; 2 = 3; 3 = 2;
     number: 10,
@@ -728,7 +728,7 @@ export const artilheiro = [
   },
   // Biqueira
   {
-    pos: 6,
+    pos: 7,
     name: 'Vitor',
     goals: 4, // 1 = 4; ;
     number: 11,
@@ -736,7 +736,7 @@ export const artilheiro = [
     shield: '/times/biqueira.png',
   },
   {
-    pos: 6,
+    pos: 7,
     name: 'Ricardo',
     goals: 4, // 1 = 2; 2 = 1; 3 = 1;
     number: 8,
