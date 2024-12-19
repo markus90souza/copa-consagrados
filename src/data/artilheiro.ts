@@ -75,7 +75,7 @@ export const artilheiro = [
 
   // Barcelona 11
   {
-    pos: 4,
+    pos: 9,
     name: 'Cleberson',
     goals: 2, // 1 = 2;
     number: 6,
@@ -83,7 +83,7 @@ export const artilheiro = [
     shield: '/times/barca11.png',
   },
   {
-    pos: 5,
+    pos: 8,
     name: 'Adriano',
     goals: 3, // 1 = 1; 2 = 2;
     number: 10,
@@ -91,7 +91,7 @@ export const artilheiro = [
     shield: '/times/barca11.png',
   },
   {
-    pos: 5,
+    pos: 8,
     name: 'Ronald',
     goals: 3, // 1 = 1; 2 = 2;
     number: 11,
@@ -99,7 +99,7 @@ export const artilheiro = [
     shield: '/times/barca11.png',
   },
   {
-    pos: 5,
+    pos: 10,
     name: 'Doty',
     goals: 1, // 1 = 1;
     number: 9,
@@ -197,7 +197,7 @@ export const artilheiro = [
   },
   // PSG Pituba
   {
-    pos: 5,
+    pos: 10,
     name: 'Jhonatan',
     goals: 1, // 1 = 1;
     number: 11,
@@ -205,7 +205,7 @@ export const artilheiro = [
     shield: '/times/psg-pituba.png',
   },
   {
-    pos: 5,
+    pos: 4,
     name: 'Ezio',
     goals: 5, // 1 = 1; 2 = 2; 3 = 2;
     number: 14,
@@ -237,7 +237,7 @@ export const artilheiro = [
     shield: '/times/psg-pituba.png',
   },
   {
-    pos: 5,
+    pos: 10,
     name: 'Pedro (G)',
     goals: 1, // 1 = 1;
     number: 1,
@@ -246,7 +246,7 @@ export const artilheiro = [
   },
   // Doces Souza
   {
-    pos: 5,
+    pos: 10,
     name: 'Frederico',
     goals: 1, // 1 = 1;
     number: 11,
@@ -254,7 +254,7 @@ export const artilheiro = [
     shield: '/times/doces-souza.png',
   },
   {
-    pos: 5,
+    pos: 10,
     name: 'Tauan',
     goals: 1, // 1 = 1;
     number: 14,
@@ -295,7 +295,7 @@ export const artilheiro = [
   },
   // Serrado
   {
-    pos: 6,
+    pos: 8,
     name: 'Altino',
     goals: 3, // 1 = 2; 2 = 1;
     number: 17,
@@ -303,7 +303,7 @@ export const artilheiro = [
     shield: '/times/serrado.png',
   },
   {
-    pos: 4,
+    pos: 9,
     name: 'Rodrigo',
     goals: 2, // 1 = 2;
     number: 18,
@@ -311,7 +311,7 @@ export const artilheiro = [
     shield: '/times/serrado.png',
   },
   {
-    pos: 3,
+    pos: 8,
     name: 'Elisvaldo',
     goals: 3, // 1 = 3;
     number: 12,
@@ -327,7 +327,7 @@ export const artilheiro = [
     shield: '/times/serrado.png',
   },
   {
-    pos: 5,
+    pos: 8,
     name: 'VICTOR EZEQUIEL',
     goals: 3, // 2 = 3;
     number: 12,
@@ -368,7 +368,7 @@ export const artilheiro = [
   },
   // Real 12
   {
-    pos: 6,
+    pos: 3,
     name: 'David',
     goals: 6, // 1 = 1; 2 = 3; 3 = 2;
     number: 41,
@@ -376,7 +376,7 @@ export const artilheiro = [
     shield: '/times/real12.png',
   },
   {
-    pos: 6,
+    pos: 3,
     name: 'José Luiz',
     goals: 6, // 1 = 2; 2 = 2; 3 = 2;
     number: 30,
@@ -449,7 +449,7 @@ export const artilheiro = [
     shield: '/times/america.png',
   },
   {
-    pos: 6,
+    pos: 8,
     name: 'Breno',
     goals: 3, // 3 = 3;
     number: 44,
