@@ -514,3 +514,81 @@ export const terceiraRodada = [
     link: '/partida/fase-03/biqueira-x-revoada',
   },
 ]
+
+export const oitavas = [
+  {
+    time1: {
+      name: 'Doces Souza',
+      shield: '/times/doces-souza.png',
+      goals: 0,
+    },
+    time2: {
+      name: 'Biqueira',
+      shield: '/times/biqueira.png',
+      goals: 0,
+    },
+    rodada: 'Oitavas de Final',
+    date: 'Quinta, 19/12/2024',
+    time: '19:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Em andamento',
+    link: '/partida/oitvas/doces-souza-x-biqueira',
+  },
+
+  {
+    time1: {
+      name: 'Galácticos',
+      shield: '/times/galacticos.png',
+      goals: 0,
+    },
+    time2: {
+      name: 'PSG Pituba',
+      shield: '/times/psg-pituba.png',
+      goals: 0,
+    },
+    rodada: 'Oitavas de Final',
+    date: 'Quinta, 19/12/2024',
+    time: '20:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Em andamento',
+    link: '/partida/oitvas/galacticos-x-psg-pituba',
+  },
+
+  {
+    time1: {
+      name: 'Revoada',
+      shield: '/times/revoada.png',
+      goals: 0,
+    },
+    time2: {
+      name: 'Atlético taquari',
+      shield: '/times/atletico-taquari.png',
+      goals: 5,
+    },
+    rodada: 'Oitavas de Final',
+    date: 'Quinta, 19/12/2024',
+    time: '21:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Em andamento',
+    link: '/partida/oitvas/revoada-x-atletico-taquari',
+  },
+
+  {
+    time1: {
+      name: 'Donos da rua',
+      shield: '/times/donos-da-rua.png',
+      goals: 0,
+    },
+    time2: {
+      name: 'Vila Real',
+      shield: '/times/vila-real.png',
+      goals: 0,
+    },
+    rodada: 'Oitavas de Final',
+    date: 'Quinta, 19/12/2024',
+    time: '22:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Em andamento',
+    link: '/partida/oitvas/donos-da-rua-x-vila-real',
+  },
+]
