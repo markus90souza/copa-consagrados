@@ -458,7 +458,7 @@ export const artilheiro = [
   },
   // Donos da rua
   {
-    pos: 5,
+    pos: 4,
     name: 'Horozino',
     goals: 5, // 2 = 5;;
     number: 6,
@@ -507,7 +507,7 @@ export const artilheiro = [
     shield: '/times/florentina.png',
   },
   {
-    pos: 6,
+    pos: 7,
     name: 'Edivanildo',
     goals: 4, // 1 = 1; 2 = 1; 3 = 2;
     number: 5,
@@ -515,7 +515,7 @@ export const artilheiro = [
     shield: '/times/florentina.png',
   },
   {
-    pos: 6,
+    pos: 7,
     name: 'Edson',
     goals: 4, // 1 = 1; 2 = 3;
     number: 6,
@@ -556,7 +556,7 @@ export const artilheiro = [
   },
   // Atlético Taquari
   {
-    pos: 3,
+    pos: 8,
     name: 'Pedro (G)',
     goals: 3, // 1 = 3;;
     number: 5,
@@ -572,7 +572,7 @@ export const artilheiro = [
     shield: '/times/atletico-taquari.png',
   },
   {
-    pos: 5,
+    pos: 8,
     name: 'Luiz Eduardo',
     goals: 1, // 1 = 1;
     number: 3,
@@ -604,7 +604,7 @@ export const artilheiro = [
     shield: '/times/atletico-taquari.png',
   },
   {
-    pos: 6,
+    pos: 7,
     name: 'Hiago',
     goals: 4, // 3 = 4;
     number: 11,
@@ -695,7 +695,7 @@ export const artilheiro = [
     shield: '/times/vila-real.png',
   },
   {
-    pos: 6,
+    pos: 7,
     name: 'Dhon cleiton',
     goals: 4, // 1 = 4;
     number: 11,
@@ -711,7 +711,7 @@ export const artilheiro = [
     shield: '/times/vila-real.png',
   },
   {
-    pos: 6,
+    pos: 7,
     name: 'Nilmar',
     goals: 4, // 2 = 4;
     number: 2,
@@ -744,7 +744,7 @@ export const artilheiro = [
     shield: '/times/biqueira.png',
   },
   {
-    pos: 5,
+    pos: 9,
     name: 'Gabriel',
     goals: 2, // 1 = 1; 3 = 1;
     number: 6,
@@ -760,7 +760,7 @@ export const artilheiro = [
     shield: '/times/biqueira.png',
   },
   {
-    pos: 3,
+    pos: 7,
     name: 'Lucas',
     goals: 4, // 1 = 3; 2 = 1;
     number: 13,
@@ -768,7 +768,7 @@ export const artilheiro = [
     shield: '/times/biqueira.png',
   },
   {
-    pos: 5,
+    pos: 10,
     name: 'Joadson',
     goals: 1, // 1 = 1;
     number: 7,
