@@ -27,8 +27,8 @@ export const grupoD = [
   },
   {
     id: 3,
-    name: 'Velha Oeste',
-    image: '/times/velha-oeste.png',
+    name: 'Velho Oeste',
+    image: '/times/velho-oeste.png',
     pts: 0,
     j: 3,
     v: 0,
