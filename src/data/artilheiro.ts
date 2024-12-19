@@ -1,7 +1,7 @@
 export const artilheiro = [
   // Revoada
   {
-    pos: 2,
+    pos: 3,
     name: 'Pedro Wilson', // 1 = 4; 2 = 1; 3 = 1;
     goals: 6,
     number: 15,
