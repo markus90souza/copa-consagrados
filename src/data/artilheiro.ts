@@ -116,7 +116,7 @@ export const artilheiro = [
   },
   // Galácticos
   {
-    pos: 3,
+    pos: 1,
     name: 'Icaro',
     goals: 8, // 1 = 5; 2 = 3;
     number: 10,
@@ -124,7 +124,7 @@ export const artilheiro = [
     shield: '/times/galacticos.png',
   },
   {
-    pos: 3,
+    pos: 1,
     name: 'Vivaldo',
     goals: 8, // 1 = 3; 3 = 5;
     number: 17,
@@ -407,53 +407,60 @@ export const artilheiro = [
     time: 'Real 12',
     shield: '/times/real12.png',
   },
-
   // América
   {
-    pos: 4,
+    pos: 1,
     name: 'Eduardo',
-    goals: 5, // PRIMEIRA RODADA 2 = SEGUNDA RODADA  3
+    goals: 8, // 1 = 2; 2 = 3; 3 = 3;
     number: 7,
     time: 'América',
     shield: '/times/america.png',
   },
   {
-    pos: 3,
+    pos: 7,
     name: 'Italo',
-    goals: 4, // PRIMEIRA RODADA 3 = SEGUNDA RODADA  1
+    goals: 4, // 1 = 3; 2 = 1;
     number: 88,
     time: 'América',
     shield: '/times/america.png',
   },
   {
-    pos: 5,
+    pos: 1,
     name: 'Iago',
-    goals: 1,
-    number: 1,
+    goals: 8, // 1 = 1; 3 = 7;
+    number: 10,
     time: 'América',
     shield: '/times/america.png',
   },
   {
-    pos: 4,
+    pos: 1,
     name: 'Joabe',
-    goals: 2,
+    goals: 8, // 1 = 2; 3 = 6;
     number: 8,
     time: 'América',
     shield: '/times/america.png',
   },
   {
-    pos: 10,
+    pos: 9,
     name: 'João augusto',
-    goals: 2, // Segunda Rodada 2
+    goals: 2, // 2 = 2;
     number: 21,
     time: 'América',
+    shield: '/times/america.png',
+  },
+  {
+    pos: 6,
+    name: 'Breno',
+    goals: 3, // 3 = 3;
+    number: 44,
+    time: 'AmERICA',
     shield: '/times/america.png',
   },
   // Donos da rua
   {
     pos: 5,
     name: 'Breno',
-    goals: 1,
+    goals: 1, // 1 = 1;
     number: 8,
     time: 'Donos da rua',
     shield: '/times/donos-da-rua.png',
