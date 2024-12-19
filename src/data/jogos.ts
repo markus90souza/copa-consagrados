@@ -532,7 +532,7 @@ export const oitavas = [
     time: '19:00',
     stadium: 'Quadra Poliesportiva AG 11',
     status: 'Em andamento',
-    link: '/partida/oitvas/doces-souza-x-biqueira',
+    link: '/partida/oitavas/doces-souza-x-biqueira',
   },
 
   {
@@ -551,7 +551,7 @@ export const oitavas = [
     time: '20:00',
     stadium: 'Quadra Poliesportiva AG 11',
     status: 'Em andamento',
-    link: '/partida/oitvas/galacticos-x-psg-pituba',
+    link: '/partida/oitavas/galacticos-x-psg-pituba',
   },
 
   {
@@ -563,14 +563,14 @@ export const oitavas = [
     time2: {
       name: 'Atlético taquari',
       shield: '/times/atletico-taquari.png',
-      goals: 5,
+      goals: 0,
     },
     rodada: 'Oitavas de Final',
     date: 'Quinta, 19/12/2024',
     time: '21:00',
     stadium: 'Quadra Poliesportiva AG 11',
     status: 'Em andamento',
-    link: '/partida/oitvas/revoada-x-atletico-taquari',
+    link: '/partida/oitavas/revoada-x-atletico-taquari',
   },
 
   {
@@ -589,6 +589,6 @@ export const oitavas = [
     time: '22:00',
     stadium: 'Quadra Poliesportiva AG 11',
     status: 'Em andamento',
-    link: '/partida/oitvas/donos-da-rua-x-vila-real',
+    link: '/partida/oitavas/donos-da-rua-x-vila-real',
   },
 ]
