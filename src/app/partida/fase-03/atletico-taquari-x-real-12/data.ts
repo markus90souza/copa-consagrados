@@ -3,7 +3,7 @@ export const statitics = [
     time1: {
       name: 'Atlético Taquari',
       shield: '/times/atletico-taquari.png',
-      goals: 8,
+      goals: 9,
       playerGoals: [
         {
           name: 'Renan',

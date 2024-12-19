@@ -459,9 +459,41 @@ export const artilheiro = [
   // Donos da rua
   {
     pos: 5,
+    name: 'Horozino',
+    goals: 5, // 2 = 5;;
+    number: 6,
+    time: 'Donos da rua',
+    shield: '/times/donos-da-rua.png',
+  },
+  {
+    pos: 3,
     name: 'Breno',
-    goals: 1, // 1 = 1;
+    goals: 6, // 1 = 1; 2 = 4; 3 = 1;
     number: 8,
+    time: 'Donos da rua',
+    shield: '/times/donos-da-rua.png',
+  },
+  {
+    pos: 10,
+    name: 'Nicolas',
+    goals: 1, // 2 = 1;
+    number: 2,
+    time: 'Donos da rua',
+    shield: '/times/donos-da-rua.png',
+  },
+  {
+    pos: 9,
+    name: 'Jean',
+    goals: 2, // 2 = 2;
+    number: 20,
+    time: 'Donos da rua',
+    shield: '/times/donos-da-rua.png',
+  },
+  {
+    pos: 9,
+    name: 'Israel',
+    goals: 2, // 2 = 2;
+    number: 25,
     time: 'Donos da rua',
     shield: '/times/donos-da-rua.png',
   },
@@ -502,15 +534,15 @@ export const artilheiro = [
   {
     pos: 3,
     name: 'Pedro (G)',
-    goals: 3,
+    goals: 3, // 1 = 3;;
     number: 5,
     time: 'Atlético Taquari',
     shield: '/times/atletico-taquari.png',
   },
   {
-    pos: 4,
+    pos: 2,
     name: 'Renan',
-    goals: 2,
+    goals: 7, // 1 = 2; 3 = 5;
     number: 9,
     time: 'Atlético Taquari',
     shield: '/times/atletico-taquari.png',
@@ -518,91 +550,171 @@ export const artilheiro = [
   {
     pos: 5,
     name: 'Luiz Eduardo',
-    goals: 1,
+    goals: 1, // 1 = 1;
     number: 3,
+    time: 'Atlético Taquari',
+    shield: '/times/atletico-taquari.png',
+  },
+  {
+    pos: 10,
+    name: 'Uilian',
+    goals: 1, // 2 = 1;
+    number: 6,
+    time: 'Atlético Taquari',
+    shield: '/times/atletico-taquari.png',
+  },
+  {
+    pos: 10,
+    name: 'Adriano',
+    goals: 1, // 2 = 1;
+    number: 9,
+    time: 'Atlético Taquari',
+    shield: '/times/atletico-taquari.png',
+  },
+  {
+    pos: 9,
+    name: 'Bruno',
+    goals: 2, // 2 = 2;
+    number: 2,
+    time: 'Atlético Taquari',
+    shield: '/times/atletico-taquari.png',
+  },
+  {
+    pos: 6,
+    name: 'Hiago',
+    goals: 4, // 3 = 4;
+    number: 11,
     time: 'Atlético Taquari',
     shield: '/times/atletico-taquari.png',
   },
   // Juventos
   {
-    pos: 5,
+    pos: 8,
     name: 'Cicero',
-    goals: 1,
+    goals: 3, // 1 = 1; 2 = 2;
     number: 8,
+    time: 'Juventos',
+    shield: '/times/juventos.png',
+  },
+  {
+    pos: 10,
+    name: 'Sebastião (Guga)',
+    goals: 1, // 1 = 1;
+    number: 14,
+    time: 'Juventos',
+    shield: '/times/juventos.png',
+  },
+  {
+    pos: 10,
+    name: 'Marcelo',
+    goals: 1, // 2 = 1;
+    number: 10,
+    time: 'Juventos',
+    shield: '/times/juventos.png',
+  },
+  {
+    pos: 10,
+    name: 'Joilton (G)',
+    goals: 1, // 3 = 1;
+    number: 19,
     time: 'Juventos',
     shield: '/times/juventos.png',
   },
   // Fênix
   {
-    pos: 5,
+    pos: 10,
     name: 'Davi',
+    number: 9, // 1 = 1;
     goals: 1,
-    number: 9,
     time: 'Fênix',
     shield: '/times/fenix.png',
   },
   {
-    pos: 4,
+    pos: 8,
     name: 'Vitor',
-    goals: 2,
+    goals: 3, // 1 = 2; 2 = 1;
     number: 9,
     time: 'Fênix',
     shield: '/times/fenix.png',
   },
   {
-    pos: 5,
+    pos: 10,
     name: 'Micael',
-    goals: 1,
+    goals: 1, // 1 = 1;
     number: 7,
     time: 'Fênix',
     shield: '/times/fenix.png',
   },
   {
-    pos: 5,
+    pos: 9,
     name: 'Jean Silva',
-    goals: 1,
+    goals: 2, // 1 = 1; 2 = 1;
     number: 10,
+    time: 'Fênix',
+    shield: '/times/fenix.png',
+  },
+  {
+    pos: 10,
+    name: 'Henrique',
+    goals: 1, // 2 = 1;
+    number: 21,
     time: 'Fênix',
     shield: '/times/fenix.png',
   },
   // Vila Real
   {
-    pos: 5,
+    pos: 10,
     name: 'Igor Maia',
-    goals: 1,
+    goals: 1, // 1 = 1;
     number: 10,
     time: 'Vila Real',
     shield: '/times/vila-real.png',
   },
   {
-    pos: 2,
+    pos: 6,
     name: 'Dhon cleiton',
-    goals: 4,
+    goals: 4, // 1 = 4;
     number: 11,
     time: 'Vila Real',
     shield: '/times/vila-real.png',
   },
   {
-    pos: 5,
+    pos: 8,
     name: 'Italo',
-    goals: 2,
+    goals: 3, // 1 = 2; 2 = 1;
     number: 9,
+    time: 'Vila Real',
+    shield: '/times/vila-real.png',
+  },
+  {
+    pos: 6,
+    name: 'Nilmar',
+    goals: 4, // 2 = 4;
+    number: 2,
+    time: 'Vila Real',
+    shield: '/times/vila-real.png',
+  },
+  {
+    pos: 10,
+    name: 'Caique',
+    goals: 1, // 3 = 1;
+    number: 5,
     time: 'Vila Real',
     shield: '/times/vila-real.png',
   },
   // Biqueira
   {
-    pos: 2,
+    pos: 6,
     name: 'Vitor',
-    goals: 4,
+    goals: 4, // 1 = 4; ;
     number: 11,
     time: 'Biqueira',
     shield: '/times/biqueira.png',
   },
   {
-    pos: 4,
+    pos: 6,
     name: 'Ricardo',
-    goals: 2,
+    goals: 4, // 1 = 2; 2 = 1; 3 = 1;
     number: 8,
     time: 'Biqueira',
     shield: '/times/biqueira.png',
@@ -610,15 +722,15 @@ export const artilheiro = [
   {
     pos: 5,
     name: 'Gabriel',
-    goals: 1,
+    goals: 2, // 1 = 1; 3 = 1;
     number: 6,
     time: 'Biqueira',
     shield: '/times/biqueira.png',
   },
   {
-    pos: 5,
+    pos: 9,
     name: 'Pedro Henrique',
-    goals: 1,
+    goals: 2, // 1 = 1; 2 = 1;
     number: 9,
     time: 'Biqueira',
     shield: '/times/biqueira.png',
@@ -626,7 +738,7 @@ export const artilheiro = [
   {
     pos: 3,
     name: 'Lucas',
-    goals: 3,
+    goals: 4, // 1 = 3; 2 = 1;
     number: 13,
     time: 'Biqueira',
     shield: '/times/biqueira.png',
@@ -634,25 +746,33 @@ export const artilheiro = [
   {
     pos: 5,
     name: 'Joadson',
-    goals: 1,
+    goals: 1, // 1 = 1;
     number: 7,
     time: 'Biqueira',
     shield: '/times/biqueira.png',
   },
   // Bahia 10
   {
-    pos: 5,
+    pos: 10,
     name: 'Jackson',
-    goals: 1,
+    goals: 1, // 1 = 1;
     number: 9,
     time: 'Bahia 10',
     shield: '/times/bahia.png',
   },
   {
-    pos: 5,
+    pos: 10,
     name: 'Adnilson',
-    goals: 1,
+    goals: 1, // 1 = 1;
     number: 4,
+    time: 'Bahia 10',
+    shield: '/times/bahia.png',
+  },
+  {
+    pos: 10,
+    name: 'Nal',
+    goals: 1, // 1 = 1;
+    number: 16,
     time: 'Bahia 10',
     shield: '/times/bahia.png',
   },
