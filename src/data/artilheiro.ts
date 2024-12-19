@@ -499,34 +499,58 @@ export const artilheiro = [
   },
   // Florentina
   {
-    pos: 4,
+    pos: 9,
     name: 'Alessandro (G)',
-    goals: 2,
+    goals: 2, // 1 = 2;
     number: 1,
     time: 'Florentino',
     shield: '/times/florentina.png',
   },
   {
-    pos: 5,
+    pos: 6,
     name: 'Edivanildo',
-    goals: 1,
+    goals: 4, // 1 = 1; 2 = 1; 3 = 2;
     number: 5,
     time: 'Florentino',
     shield: '/times/florentina.png',
   },
   {
-    pos: 5,
+    pos: 6,
     name: 'Edson',
-    goals: 1,
+    goals: 4, // 1 = 1; 2 = 3;
     number: 6,
     time: 'Florentino',
     shield: '/times/florentina.png',
   },
   {
-    pos: 5,
+    pos: 10,
     name: 'Cleison',
-    goals: 1,
+    goals: 1, // 1 = 1;
     number: 21,
+    time: 'Florentino',
+    shield: '/times/florentina.png',
+  },
+  {
+    pos: 9,
+    name: 'Eduardo',
+    goals: 2, // 2 = 1; 3 = 1;
+    number: 8,
+    time: 'Florentino',
+    shield: '/times/florentina.png',
+  },
+  {
+    pos: 10,
+    name: 'Luiz Gustavo',
+    goals: 1, // 2 = 1;
+    number: 9,
+    time: 'Florentino',
+    shield: '/times/florentina.png',
+  },
+  {
+    pos: 9,
+    name: 'Francisco',
+    goals: 2, // 2 = 1; 3 = 1;
+    number: 3,
     time: 'Florentino',
     shield: '/times/florentina.png',
   },
