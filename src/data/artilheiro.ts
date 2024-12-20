@@ -468,7 +468,7 @@ export const artilheiro = [
   {
     pos: 3,
     name: 'Breno',
-    goals: 6, // 1 = 1; 2 = 4; 3 = 1;
+    goals: 7, // 1 = 1; 2 = 4; 3 = 1; Oitavas = 1;
     number: 8,
     time: 'Donos da rua',
     shield: '/times/donos-da-rua.png',
@@ -494,6 +494,22 @@ export const artilheiro = [
     name: 'Israel',
     goals: 2, // 2 = 2;
     number: 25,
+    time: 'Donos da rua',
+    shield: '/times/donos-da-rua.png',
+  },
+  {
+    pos: 10,
+    name: 'João vitor (G)',
+    goals: 1, // Oitavas = 1;
+    number: 25,
+    time: 'Donos da rua',
+    shield: '/times/donos-da-rua.png',
+  },
+  {
+    pos: 10,
+    name: 'Laurindo',
+    goals: 1, // Oitavas = 1;
+    number: 10,
     time: 'Donos da rua',
     shield: '/times/donos-da-rua.png',
   },
@@ -713,7 +729,7 @@ export const artilheiro = [
   {
     pos: 7,
     name: 'Nilmar',
-    goals: 4, // 2 = 4;
+    goals: 5, // 2 = 4; Oitavas = 1
     number: 2,
     time: 'Vila Real',
     shield: '/times/vila-real.png',
@@ -721,7 +737,7 @@ export const artilheiro = [
   {
     pos: 10,
     name: 'Caique',
-    goals: 1, // 3 = 1;
+    goals: 2, // 3 = 1; Oitavas = 1
     number: 5,
     time: 'Vila Real',
     shield: '/times/vila-real.png',

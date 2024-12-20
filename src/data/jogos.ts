@@ -577,18 +577,18 @@ export const oitavas = [
     time1: {
       name: 'Donos da rua',
       shield: '/times/donos-da-rua.png',
-      goals: 0,
+      goals: 5,
     },
     time2: {
       name: 'Vila Real',
       shield: '/times/vila-real.png',
-      goals: 0,
+      goals: 2,
     },
     rodada: 'Oitavas de Final',
     date: 'Quinta, 19/12/2024',
     time: '22:00',
     stadium: 'Quadra Poliesportiva AG 11',
-    status: 'Em andamento',
+    status: 'Finalizado',
     link: '/partida/oitavas/donos-da-rua-x-vila-real',
   },
 ]
