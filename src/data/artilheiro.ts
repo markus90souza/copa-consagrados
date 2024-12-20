@@ -441,7 +441,7 @@ export const artilheiro = [
   },
   // América
   {
-    pos: 1,
+    pos: 3,
     name: 'Eduardo',
     goals: 8, // 1 = 2; 2 = 3; 3 = 3;
     number: 7,
@@ -457,7 +457,7 @@ export const artilheiro = [
     shield: '/times/america.png',
   },
   {
-    pos: 1,
+    pos: 3,
     name: 'Iago',
     goals: 8, // 1 = 1; 3 = 7;
     number: 10,
@@ -465,7 +465,7 @@ export const artilheiro = [
     shield: '/times/america.png',
   },
   {
-    pos: 1,
+    pos: 3,
     name: 'Joabe',
     goals: 8, // 1 = 2; 3 = 6;
     number: 8,
