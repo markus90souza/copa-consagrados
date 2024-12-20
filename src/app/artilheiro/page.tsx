@@ -15,19 +15,19 @@ const ArtilheiroPage = () => {
     <Table>
       <ScrollArea className="h-fit pb-14">
         <TableHeader>
-          <TableHead className="w-10 uppercase">POS</TableHead>
+          {/* <TableHead className="w-10 uppercase">POS</TableHead> */}
           <TableHead className="uppercase">Jogador</TableHead>
           <TableHead className="uppercase">Time</TableHead>
           <TableHead className="w-10 uppercase">Gols</TableHead>
         </TableHeader>
         <TableBody>
           {artilheiro
-            .sort((a, b) => a.pos - b.pos)
+            .sort((a, b) => b.goals - a.goals)
             .map((item, index) => (
               <TableRow key={index}>
-                <TableCell className="font-mono text-sm text-center font-medium">
+                {/* <TableCell className="font-mono text-sm text-center font-medium">
                   {item.pos}
-                </TableCell>
+                </TableCell> */}
 
                 <TableCell className="text-muted-foreground uppercase text-xs">
                   {item.name}
