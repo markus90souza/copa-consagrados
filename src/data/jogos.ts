@@ -520,18 +520,18 @@ export const oitavas = [
     time1: {
       name: 'Doces Souza',
       shield: '/times/doces-souza.png',
-      goals: 0,
+      goals: 9,
     },
     time2: {
       name: 'Biqueira',
       shield: '/times/biqueira.png',
-      goals: 0,
+      goals: 1,
     },
     rodada: 'Oitavas de Final',
     date: 'Quinta, 19/12/2024',
     time: '19:00',
     stadium: 'Quadra Poliesportiva AG 11',
-    status: 'Em andamento',
+    status: 'Finalizado',
     link: '/partida/oitavas/doces-souza-x-biqueira',
   },
 

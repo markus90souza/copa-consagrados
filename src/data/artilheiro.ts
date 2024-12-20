@@ -262,33 +262,33 @@ export const artilheiro = [
     shield: '/times/doces-souza.png',
   },
   {
-    pos: 10,
+    pos: 9,
     name: 'Tauan',
-    goals: 1, // 1 = 1;
-    number: 14,
+    goals: 2, // 1 = 1; Oitavas = 1;
+    number: 87,
     time: 'DOCES SOUZA',
     shield: '/times/doces-souza.png',
   },
   {
-    pos: 9,
+    pos: 7,
     name: 'Eric',
-    goals: 2, // 1 = 1; 2 = 1;
+    goals: 4, // 1 = 1; 2 = 1; Oitavas = 2;
     number: 7,
     time: 'DOCES SOUZA',
     shield: '/times/doces-souza.png',
   },
   {
-    pos: 9,
+    pos: 7,
     name: 'Rai Batista',
-    goals: 2, // 2 = 2;
+    goals: 4, // 2 = 2; Oitavas = 2;
     number: 20,
     time: 'DOCES SOUZA',
     shield: '/times/doces-souza.png',
   },
   {
-    pos: 8,
-    name: 'Sanuel',
-    goals: 3, //  2 = 2; 3 = 1;
+    pos: 6,
+    name: 'Samuel',
+    goals: 5, //  2 = 2; 3 = 1; Oitavas = 2;
     number: 11,
     time: 'DOCES SOUZA',
     shield: '/times/doces-souza.png',
@@ -298,6 +298,14 @@ export const artilheiro = [
     name: 'Italo',
     goals: 2, // 2 = 2;
     number: 10,
+    time: 'DOCES SOUZA',
+    shield: '/times/doces-souza.png',
+  },
+  {
+    pos: 9,
+    name: 'Nathan',
+    goals: 2, // Oitavas = 2;
+    number: 48,
     time: 'DOCES SOUZA',
     shield: '/times/doces-souza.png',
   },
@@ -754,7 +762,7 @@ export const artilheiro = [
   {
     pos: 7,
     name: 'Vitor',
-    goals: 4, // 1 = 4; ;
+    goals: 5, // 1 = 4; Oitavas = 1;
     number: 11,
     time: 'Biqueira',
     shield: '/times/biqueira.png',
