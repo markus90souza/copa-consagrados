@@ -351,7 +351,7 @@ export const artilheiro = [
     shield: '/times/serrado.png',
   },
   {
-    pos: 3,
+    pos: 5,
     name: 'Luiz Eduardo',
     goals: 6, // 1 = 1; 2 = 3; 3 = 2;
     number: 10,
@@ -400,7 +400,7 @@ export const artilheiro = [
   },
   // Real 12
   {
-    pos: 3,
+    pos: 5,
     name: 'David',
     goals: 6, // 1 = 1; 2 = 3; 3 = 2;
     number: 41,
@@ -408,7 +408,7 @@ export const artilheiro = [
     shield: '/times/real12.png',
   },
   {
-    pos: 3,
+    pos: 5,
     name: 'José Luiz',
     goals: 6, // 1 = 2; 2 = 2; 3 = 2;
     number: 30,
@@ -498,7 +498,7 @@ export const artilheiro = [
     shield: '/times/donos-da-rua.png',
   },
   {
-    pos: 3,
+    pos: 4,
     name: 'Breno',
     goals: 7, // 1 = 1; 2 = 4; 3 = 1; Oitavas = 1;
     number: 8,
