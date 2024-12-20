@@ -539,18 +539,18 @@ export const oitavas = [
     time1: {
       name: 'Galácticos',
       shield: '/times/galacticos.png',
-      goals: 0,
+      goals: 8,
     },
     time2: {
       name: 'PSG Pituba',
       shield: '/times/psg-pituba.png',
-      goals: 0,
+      goals: 3,
     },
     rodada: 'Oitavas de Final',
     date: 'Quinta, 19/12/2024',
     time: '20:00',
     stadium: 'Quadra Poliesportiva AG 11',
-    status: 'Em andamento',
+    status: 'Finalizado',
     link: '/partida/oitavas/galacticos-x-psg-pituba',
   },
 

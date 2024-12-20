@@ -124,7 +124,7 @@ export const artilheiro = [
   },
   // Galácticos
   {
-    pos: 1,
+    pos: 3,
     name: 'Icaro',
     goals: 8, // 1 = 5; 2 = 3;
     number: 10,
@@ -132,17 +132,17 @@ export const artilheiro = [
     shield: '/times/galacticos.png',
   },
   {
-    pos: 1,
+    pos: 2,
     name: 'Vivaldo',
-    goals: 8, // 1 = 3; 3 = 5;
+    goals: 9, // 1 = 3; 3 = 5; Oitavas = 1;
     number: 17,
     time: 'Galácticos',
     shield: '/times/galacticos.png',
   },
   {
-    pos: 9,
+    pos: 7,
     name: 'Zil',
-    goals: 2, // 3 = 2;
+    goals: 4, // 3 = 2; Oitavas = 2;
     number: 9,
     time: 'Galácticos',
     shield: '/times/galacticos.png',
@@ -156,9 +156,9 @@ export const artilheiro = [
     shield: '/times/galacticos.png',
   },
   {
-    pos: 10,
+    pos: 7,
     name: 'Diogo',
-    goals: 1, // 3 = 1;
+    goals: 4, // 3 = 1; Oitavas = 3;
     number: 21,
     time: 'Galácticos',
     shield: '/times/galacticos.png',
@@ -203,6 +203,14 @@ export const artilheiro = [
     time: 'Galácticos',
     shield: '/times/galacticos.png',
   },
+  {
+    pos: 9,
+    name: 'Thiago Henrique',
+    goals: 2, // Oitavas = 2;;
+    number: 18,
+    time: 'Galácticos',
+    shield: '/times/galacticos.png',
+  },
   // PSG Pituba
   {
     pos: 10,
@@ -215,7 +223,7 @@ export const artilheiro = [
   {
     pos: 4,
     name: 'Ezio',
-    goals: 5, // 1 = 1; 2 = 2; 3 = 2;
+    goals: 7, // 1 = 1; 2 = 2; 3 = 2; Oitavas = 2;
     number: 14,
     time: 'PSG Pituba',
     shield: '/times/psg-pituba.png',
@@ -248,7 +256,15 @@ export const artilheiro = [
     pos: 10,
     name: 'Pedro (G)',
     goals: 1, // 1 = 1;
-    number: 1,
+    number: 3,
+    time: 'PSG Pituba',
+    shield: '/times/psg-pituba.png',
+  },
+  {
+    pos: 10,
+    name: 'Júlio',
+    goals: 1, // Oitavas = 1;
+    number: 3,
     time: 'PSG Pituba',
     shield: '/times/psg-pituba.png',
   },
