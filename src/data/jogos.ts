@@ -558,18 +558,18 @@ export const oitavas = [
     time1: {
       name: 'Revoada',
       shield: '/times/revoada.png',
-      goals: 0,
+      goals: 5,
     },
     time2: {
       name: 'Atlético taquari',
       shield: '/times/atletico-taquari.png',
-      goals: 0,
+      goals: 4,
     },
     rodada: 'Oitavas de Final',
     date: 'Quinta, 19/12/2024',
     time: '21:00',
     stadium: 'Quadra Poliesportiva AG 11',
-    status: 'Em andamento',
+    status: 'Finalizado',
     link: '/partida/oitavas/revoada-x-atletico-taquari',
   },
 

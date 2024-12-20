@@ -2,8 +2,8 @@ export const artilheiro = [
   // Revoada
   {
     pos: 3,
-    name: 'Pedro Wilson', // 1 = 4; 2 = 1; 3 = 1;
-    goals: 6,
+    name: 'Pedro Wilson', // 1 = 4; 2 = 1; 3 = 1; Oitavas = 2
+    goals: 8,
     number: 15,
     time: 'REVOADA',
     shield: '/times/revoada.png',
@@ -49,9 +49,9 @@ export const artilheiro = [
     shield: '/times/revoada.png',
   },
   {
-    pos: 10,
+    pos: 9,
     name: 'Douglas',
-    goals: 1, // 3 = 1;
+    goals: 3, // 3 = 1; Oitavas = 2
     number: 7,
     time: 'REVOADA',
     shield: '/times/revoada.png',
@@ -69,6 +69,14 @@ export const artilheiro = [
     name: 'Eduardo',
     goals: 2, // 3 = 2;
     number: 18,
+    time: 'REVOADA',
+    shield: '/times/revoada.png',
+  },
+  {
+    pos: 10,
+    name: 'Brenno',
+    goals: 1, // Oitavas = 1;
+    number: 12,
     time: 'REVOADA',
     shield: '/times/revoada.png',
   },
@@ -580,9 +588,9 @@ export const artilheiro = [
     shield: '/times/atletico-taquari.png',
   },
   {
-    pos: 2,
+    pos: 1,
     name: 'Renan',
-    goals: 7, // 1 = 2; 3 = 5;
+    goals: 10, // 1 = 2; 3 = 5; Oitavas = 3;
     number: 9,
     time: 'Atlético Taquari',
     shield: '/times/atletico-taquari.png',
@@ -622,7 +630,7 @@ export const artilheiro = [
   {
     pos: 7,
     name: 'Hiago',
-    goals: 4, // 3 = 4;
+    goals: 5, // 3 = 4; Oitavas = 1;
     number: 11,
     time: 'Atlético Taquari',
     shield: '/times/atletico-taquari.png',

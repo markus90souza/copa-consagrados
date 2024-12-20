@@ -45,8 +45,8 @@ export default function Page() {
                 <div className="flex flex-wrap max-w-[120px] w-full">
                   {item.time1.playerGoals.map((item, index) => (
                     <div className="" key={index}>
-                      <span className="block text-sm items-center justify-start ">
-                        {item.name}({item.number}){' - '}
+                      <span className="block text-xs items-center justify-start ">
+                        {item.name}({item.number}){'-'}
                         {item.goals}
                       </span>
                     </div>
