@@ -592,3 +592,120 @@ export const oitavas = [
     link: '/partida/oitavas/donos-da-rua-x-vila-real',
   },
 ]
+
+export const quartas = [
+  {
+    time1: {
+      name: 'Doces Souza',
+      shield: '/times/doces-souza.png',
+      goals: 9,
+    },
+    time2: {
+      name: 'Biqueira',
+      shield: '/times/biqueira.png',
+      goals: 1,
+    },
+    rodada: 'Oitavas de Final',
+    date: 'Quinta, 19/12/2024',
+    time: '19:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Finalizado',
+    link: '/partida/oitavas/doces-souza-x-biqueira',
+  },
+
+  {
+    time1: {
+      name: 'Galácticos',
+      shield: '/times/galacticos.png',
+      goals: 8,
+    },
+    time2: {
+      name: 'PSG Pituba',
+      shield: '/times/psg-pituba.png',
+      goals: 3,
+    },
+    rodada: 'Oitavas de Final',
+    date: 'Quinta, 19/12/2024',
+    time: '20:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Finalizado',
+    link: '/partida/oitavas/galacticos-x-psg-pituba',
+  },
+
+  {
+    time1: {
+      name: 'Revoada',
+      shield: '/times/revoada.png',
+      goals: 5,
+    },
+    time2: {
+      name: 'Atlético taquari',
+      shield: '/times/atletico-taquari.png',
+      goals: 4,
+    },
+    rodada: 'Oitavas de Final',
+    date: 'Quinta, 19/12/2024',
+    time: '21:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Finalizado',
+    link: '/partida/oitavas/revoada-x-atletico-taquari',
+  },
+
+  {
+    time1: {
+      name: 'Donos da rua',
+      shield: '/times/donos-da-rua.png',
+      goals: 5,
+    },
+    time2: {
+      name: 'Vila Real',
+      shield: '/times/vila-real.png',
+      goals: 2,
+    },
+    rodada: 'Oitavas de Final',
+    date: 'Quinta, 19/12/2024',
+    time: '22:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Finalizado',
+    link: '/partida/oitavas/donos-da-rua-x-vila-real',
+  },
+]
+
+export const semi = [
+  {
+    time1: {
+      name: 'América',
+      shield: '/times/america.png',
+      goals: 0,
+    },
+    time2: {
+      name: 'Barcelona 11',
+      shield: '/times/barca11.png',
+      goals: 0,
+    },
+    rodada: 'Semi-Final',
+    date: 'Quinta, 30/01/2025',
+    time: '20:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Em andamento',
+    link: '/partida/oitavas/america-x-barcelona',
+  },
+  {
+    time1: {
+      name: 'Galácticos',
+      shield: '/times/galacticos.png',
+      goals: 0,
+    },
+    time2: {
+      name: 'Revoada',
+      shield: '/times/revoada.png',
+      goals: 0,
+    },
+    rodada: 'Semi-Final',
+    date: 'Quinta, 30/01/2025',
+    time: '21:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Em andamento',
+    link: '/partida/oitavas/galacticos-x-revoada',
+  },
+]
