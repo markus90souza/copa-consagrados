@@ -1,9 +1,25 @@
 export const artilheiro = [
+  {
+    pos: 1,
+    name: 'Maicon', // 1 = 4; 2 = 1; 3 = 1; Oitavas = 2 Quartas = 2
+    goals: 2,
+    number: 6,
+    time: 'REAL MADRUGA',
+    shield: '/times/real-madruga.png',
+  },
+  {
+    pos: 10,
+    name: 'Jovelino',
+    goals: 2, // Quartas = 2;
+    number: 8,
+    time: 'REAL MADRUGA',
+    shield: '/times/real-madruga.png',
+  },
   // Revoada
   {
     pos: 3,
-    name: 'Pedro Wilson', // 1 = 4; 2 = 1; 3 = 1; Oitavas = 2 Quartas = 2
-    goals: 10,
+    name: 'Pedro Wilson', // 1 = 4; 2 = 1; 3 = 1; Oitavas = 2 Quartas = 2 semi = 1
+    goals: 11,
     number: 15,
     time: 'REVOADA',
     shield: '/times/revoada.png',
@@ -51,7 +67,7 @@ export const artilheiro = [
   {
     pos: 9,
     name: 'Douglas',
-    goals: 7, // 3 = 1; Oitavas = 2 Quartas = 4
+    goals: 9, // 3 = 1; Oitavas = 2 Quartas = 4 semi = 2
     number: 7,
     time: 'REVOADA',
     shield: '/times/revoada.png',
@@ -67,7 +83,7 @@ export const artilheiro = [
   {
     pos: 9,
     name: 'Eduardo',
-    goals: 7, // 3 = 2; Quartas = 5
+    goals: 9, // 3 = 2; Quartas = 5 semi = 2
     number: 18,
     time: 'REVOADA',
     shield: '/times/revoada.png',
@@ -109,7 +125,7 @@ export const artilheiro = [
   {
     pos: 10,
     name: 'Doty',
-    goals: 1, // 1 = 1;
+    goals: 2, // 1 = 1; semi = 1
     number: 9,
     time: 'BARCELONA 11',
     shield: '/times/barca11.png',
@@ -125,7 +141,7 @@ export const artilheiro = [
   {
     pos: 10,
     name: 'Felipe',
-    goals: 2, // Quartas = 2;
+    goals: 4, // Quartas = 2; semi = 2
     number: 13,
     time: 'BARCELONA 11',
     shield: '/times/barca11.png',
@@ -134,7 +150,7 @@ export const artilheiro = [
   {
     pos: 3,
     name: 'Icaro',
-    goals: 12, // 1 = 5; 2 = 3; Oitavas = 4;
+    goals: 16, // 1 = 5; 2 = 3; Quartas = 4; Semi = 4
     number: 10,
     time: 'Galácticos',
     shield: '/times/galacticos.png',
@@ -150,7 +166,7 @@ export const artilheiro = [
   {
     pos: 7,
     name: 'Zil',
-    goals: 4, // 3 = 2; Oitavas = 2;
+    goals: 5, // 3 = 2; Oitavas = 2; Semi = 1
     number: 9,
     time: 'Galácticos',
     shield: '/times/galacticos.png',
@@ -158,7 +174,7 @@ export const artilheiro = [
   {
     pos: 9,
     name: 'Tales',
-    goals: 2, // 3 = 2;
+    goals: 3, // 3 = 2; semi = 1
     number: 23,
     time: 'Galácticos',
     shield: '/times/galacticos.png',
@@ -166,7 +182,7 @@ export const artilheiro = [
   {
     pos: 7,
     name: 'Diogo',
-    goals: 5, // 3 = 1; Oitavas = 3; Quartas = 1
+    goals: 6, // 3 = 1; Oitavas = 3; Quartas = 1 semi = 1
     number: 21,
     time: 'Galácticos',
     shield: '/times/galacticos.png',
@@ -174,7 +190,7 @@ export const artilheiro = [
   {
     pos: 10,
     name: 'Auri',
-    goals: 1, // 3 = 1;
+    goals: 2, // 3 = 1; semi = 1
     number: 25,
     time: 'Galácticos',
     shield: '/times/galacticos.png',
@@ -459,7 +475,7 @@ export const artilheiro = [
   {
     pos: 3,
     name: 'Eduardo',
-    goals: 10, // 1 = 2; 2 = 3; 3 = 3; Quartas = 2
+    goals: 11, // 1 = 2; 2 = 3; 3 = 3; Quartas = 2 semi = 1
     number: 7,
     time: 'América',
     shield: '/times/america.png',
@@ -467,7 +483,7 @@ export const artilheiro = [
   {
     pos: 7,
     name: 'Italo',
-    goals: 7, // 1 = 3; 2 = 1; Quartas = 3;
+    goals: 8, // 1 = 3; 2 = 1; Quartas = 3; Semi = 1
     number: 88,
     time: 'América',
     shield: '/times/america.png',
