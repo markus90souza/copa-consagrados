@@ -38,8 +38,8 @@ export const statitics = [
       faltas: 4,
     },
     time2: {
-      name: 'PSG Pituba',
-      shield: '/times/psg-pituba.png',
+      name: 'América',
+      shield: '/times/america.png',
       goals: 4,
       playerGoals: [
         {

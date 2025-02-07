@@ -14,14 +14,14 @@ export default function Page() {
         <>
           <div key={index} className="w-full flex max-w-7xl mx-auto flex-col">
             <div className=" flex flex-row">
-              <div className="w-full">
+              <div className=" w-full">
                 <TimeCard
                   goals={item.time1.goals}
                   image={item.time1.shield}
                   name={item.time1.name}
                 />
               </div>
-              <div className="w-full">
+              <div className=" w-full">
                 <TimeCard
                   image={item.time2.shield}
                   name={item.time2.name}
@@ -60,7 +60,8 @@ export default function Page() {
                   {item.time2.playerGoals.map((item, index) => (
                     <div className="flex" key={index}>
                       <span>
-                        {item.name}({item.number}){'  '}
+                        {item.name}({item.number}){' - '}
+                        {item.goals}
                       </span>
                     </div>
                   ))}

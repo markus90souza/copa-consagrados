@@ -598,76 +598,76 @@ export const quartas = [
     time1: {
       name: 'Doces Souza',
       shield: '/times/doces-souza.png',
-      goals: 9,
-    },
-    time2: {
-      name: 'Biqueira',
-      shield: '/times/biqueira.png',
       goals: 1,
     },
-    rodada: 'Oitavas de Final',
-    date: 'Quinta, 19/12/2024',
-    time: '19:00',
+    time2: {
+      name: 'Barcelona 11',
+      shield: '/times/barca11.png',
+      goals: 4,
+    },
+    rodada: 'Quartas de Final',
+    date: 'Terça, 07/01/2025',
+    time: '19:30',
     stadium: 'Quadra Poliesportiva AG 11',
     status: 'Finalizado',
-    link: '/partida/oitavas/doces-souza-x-biqueira',
+    link: '/partida/quartas/doces-souza-x-barcelona-11',
   },
 
   {
     time1: {
-      name: 'Galácticos',
-      shield: '/times/galacticos.png',
-      goals: 8,
+      name: 'América',
+      shield: '/times/america.png',
+      goals: 7,
     },
     time2: {
-      name: 'PSG Pituba',
-      shield: '/times/psg-pituba.png',
-      goals: 3,
+      name: 'Donos da rua',
+      shield: '/times/donos-da-rua.png',
+      goals: 2,
     },
-    rodada: 'Oitavas de Final',
-    date: 'Quinta, 19/12/2024',
+    rodada: 'Quartas de Final',
+    date: 'Terça, 07/01/2025',
+    time: '20:30',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Finalizado',
+    link: '/partida/quartas/america-x-donos-da-rua',
+  },
+
+  {
+    time1: {
+      name: 'Serrado',
+      shield: '/times/serrado.png',
+      goals: 4,
+    },
+    time2: {
+      name: 'Revoada',
+      shield: '/times/revoada.png',
+      goals: 12,
+    },
+    rodada: 'Quartas de Final',
+    date: 'Terça, 21/01/2025',
     time: '20:00',
     stadium: 'Quadra Poliesportiva AG 11',
     status: 'Finalizado',
-    link: '/partida/oitavas/galacticos-x-psg-pituba',
+    link: '/partida/quartas/serrado-x-revoada',
   },
 
   {
     time1: {
-      name: 'Revoada',
-      shield: '/times/revoada.png',
-      goals: 5,
-    },
-    time2: {
-      name: 'Atlético taquari',
-      shield: '/times/atletico-taquari.png',
+      name: 'Real Madruga',
+      shield: '/times/real-madruga.png',
       goals: 4,
     },
-    rodada: 'Oitavas de Final',
-    date: 'Quinta, 19/12/2024',
+    time2: {
+      name: 'Galácticos',
+      shield: '/times/galacticos.png',
+      goals: 6,
+    },
+    rodada: 'Quartas de Final',
+    date: 'Terça, 21/01/2025',
     time: '21:00',
     stadium: 'Quadra Poliesportiva AG 11',
     status: 'Finalizado',
-    link: '/partida/oitavas/revoada-x-atletico-taquari',
-  },
-
-  {
-    time1: {
-      name: 'Donos da rua',
-      shield: '/times/donos-da-rua.png',
-      goals: 5,
-    },
-    time2: {
-      name: 'Vila Real',
-      shield: '/times/vila-real.png',
-      goals: 2,
-    },
-    rodada: 'Oitavas de Final',
-    date: 'Quinta, 19/12/2024',
-    time: '22:00',
-    stadium: 'Quadra Poliesportiva AG 11',
-    status: 'Finalizado',
-    link: '/partida/oitavas/donos-da-rua-x-vila-real',
+    link: '/partida/quartas/real-madruga-x-galacticos',
   },
 ]
 
@@ -676,6 +676,45 @@ export const semi = [
     time1: {
       name: 'América',
       shield: '/times/america.png',
+      goals: 4,
+    },
+    time2: {
+      name: 'Barcelona 11',
+      shield: '/times/barca11.png',
+      goals: 3,
+    },
+    rodada: 'Semi-Final',
+    date: 'Quinta, 30/01/2025',
+    time: '20:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Finalizado',
+    link: '/partida/semi/america-x-barcelona',
+  },
+  {
+    time1: {
+      name: 'Galácticos',
+      shield: '/times/galacticos.png',
+      goals: 8,
+    },
+    time2: {
+      name: 'Revoada',
+      shield: '/times/revoada.png',
+      goals: 5,
+    },
+    rodada: 'Semi-Final',
+    date: 'Quinta, 30/01/2025',
+    time: '21:00',
+    stadium: 'Quadra Poliesportiva AG 11',
+    status: 'Finalizado',
+    link: '/partida/semi/galacticos-x-revoada',
+  },
+]
+
+export const final = [
+  {
+    time1: {
+      name: 'Revoada',
+      shield: '/times/revoada.png',
       goals: 0,
     },
     time2: {
@@ -683,12 +722,13 @@ export const semi = [
       shield: '/times/barca11.png',
       goals: 0,
     },
-    rodada: 'Semi-Final',
-    date: 'Quinta, 30/01/2025',
+    rodada: 'Terceiro Lugar',
+    date: 'Sábado, 08/02/2025',
     time: '20:00',
     stadium: 'Quadra Poliesportiva AG 11',
     status: 'Em andamento',
-    link: '/partida/oitavas/america-x-barcelona',
+        link: '#'
+    // link: '/partida/final/revoada-x-barcelona-11',
   },
   {
     time1: {
@@ -697,15 +737,16 @@ export const semi = [
       goals: 0,
     },
     time2: {
-      name: 'Revoada',
-      shield: '/times/revoada.png',
+      name: 'América',
+      shield: '/times/america.png',
       goals: 0,
     },
-    rodada: 'Semi-Final',
-    date: 'Quinta, 30/01/2025',
+    rodada: 'Final',
+    date: 'Sábado, 08/02/2025',
     time: '21:00',
     stadium: 'Quadra Poliesportiva AG 11',
     status: 'Em andamento',
-    link: '/partida/oitavas/galacticos-x-revoada',
+    link: '#'
+    // link: '/partida/final/galacticos-x-america',
   },
 ]

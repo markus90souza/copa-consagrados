@@ -1,38 +1,58 @@
 export const statitics = [
   {
     time1: {
-      name: 'Doces Souza',
-      shield: '/times/doces-souza.png',
-      goals: 1,
+      name: 'América',
+      shield: '/times/america.png',
+      goals: 4,
       playerGoals: [
         {
-          name: 'Samuel',
+          name: 'Felipe (Gol contra)',
+          goals: 1,
+          number: 17,
+        },
+        {
+          name: 'Ronald (Gol contra)',
           goals: 1,
           number: 11,
         },
+        {
+          name: 'Eduardo',
+          goals: 1,
+          number: 7,
+        },
+        {
+          name: 'Italo',
+          goals: 1,
+          number: 88,
+        },
       ],
-      cartoes: 0,
-      ca: 0,
+      cartoes: 2,
+      ca: 2,
       cv: 0,
       expulsoes: 0,
-      faltas: 0,
+      faltas: 4,
     },
     time2: {
-      name: 'Morro da Providência',
-      shield: '/times/morro.png',
-      goals: 0,
+      name: 'Barcelona 11',
+      shield: '/times/barca11.png',
+      goals: 3,
       playerGoals: [
         {
-          name: '',
-          goals: '',
-          number: '',
+          name: 'Felipe',
+          goals: 2,
+          number: 17,
+        },
+        {
+          name: 'Doty',
+          goals: 1,
+          number: 8,
         },
       ],
       cartoes: 0,
       ca: 0,
       cv: 0,
       expulsoes: 0,
-      faltas: 0,
+      faltas: 3,
     },
   },
 ]

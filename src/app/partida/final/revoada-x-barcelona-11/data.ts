@@ -1,8 +1,8 @@
 export const statitics = [
   {
     time1: {
-      name: 'Galácticos',
-      shield: '/times/galacticos.png',
+      name: 'Revoada',
+      shield: '/times/revoada.png',
       goals: 11,
       playerGoals: [
         {
@@ -38,8 +38,8 @@ export const statitics = [
       faltas: 4,
     },
     time2: {
-      name: 'PSG Pituba',
-      shield: '/times/psg-pituba.png',
+      name: 'Barcelona 11',
+      shield: '/times/barca11.png',
       goals: 4,
       playerGoals: [
         {
