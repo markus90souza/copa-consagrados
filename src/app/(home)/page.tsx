@@ -145,7 +145,7 @@ export default function Home() {
 
       <div className="w-full">
         <Shell className="max-w-7xl mx-auto px-4">
-          <Section title="Oitavas de final" href="#">
+          <Section title="Quartas de final" href="#">
             {quartas.map((item, index) => (
               <GameCard
                 key={index}
