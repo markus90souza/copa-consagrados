@@ -1,22 +1,14 @@
-'use client'
+"use client";
 
-import { GameCard } from '@/components/cards/game-card'
+import { GameCard } from "@/components/cards/game-card";
 
-import { Section } from '@/components/shared/section'
-import { Shell } from '@/components/shell'
+import { Section } from "@/components/shared/section";
+import { Shell } from "@/components/shell";
 // import { TimeCardFull } from '@/components/time-card-full'
-import {
-  oitavas,
-  primeiraRodada,
-  segundaRodada,
-  terceiraRodada,
-  semi,
-  quartas,
-  final,
-} from '@/data/jogos'
+import { primeiraRodada, segundaRodada, terceiraRodada } from "@/data/jogos";
 
-import Image from 'next/image'
-import { Partner } from './_components/partner'
+import Image from "next/image";
+import { Partner } from "./_components/partner";
 
 export default function Home() {
   return (
@@ -27,7 +19,7 @@ export default function Home() {
           width={169}
           height={105}
           className="object-contain"
-          src={'/images/asset-0.webp'}
+          src={"/images/asset-0.webp"}
         />
       </div>
 
@@ -40,18 +32,18 @@ export default function Home() {
                 time1={{
                   name: item.time1.name,
                   shield: item.time1.shield,
-                  goal: item.time1.goals ? item.time1.goals : '0',
+                  goal: item.time1.goals ? item.time1.goals : "0",
                 }}
                 time2={{
                   name: item.time2.name,
                   shield: item.time2.shield,
-                  goal: item.time2.goals ? item.time2.goals : '0',
+                  goal: item.time2.goals ? item.time2.goals : "0",
                 }}
                 round={item.rodada}
                 date={item.date}
                 hour={item.time}
                 stadium={item.stadium}
-                status={item.status as 'Finalizado' | 'Em andamento'}
+                status={item.status as "Finalizado" | "Em andamento"}
                 link={item.link}
               />
             ))}
@@ -68,18 +60,18 @@ export default function Home() {
                 time1={{
                   name: item.time1.name,
                   shield: item.time1.shield,
-                  goal: item.time1.goals ? item.time1.goals : '0',
+                  goal: item.time1.goals ? item.time1.goals : "0",
                 }}
                 time2={{
                   name: item.time2.name,
                   shield: item.time2.shield,
-                  goal: item.time2.goals ? item.time2.goals : '0',
+                  goal: item.time2.goals ? item.time2.goals : "0",
                 }}
                 round={item.rodada}
                 date={item.date}
                 hour={item.time}
                 stadium={item.stadium}
-                status={item.status as 'Finalizado' | 'Em andamento'}
+                status={item.status as "Finalizado" | "Em andamento"}
                 link={item.link}
               />
             ))}
@@ -96,130 +88,18 @@ export default function Home() {
                 time1={{
                   name: item.time1.name,
                   shield: item.time1.shield,
-                  goal: item.time1.goals ? item.time1.goals : '0',
+                  goal: item.time1.goals ? item.time1.goals : "0",
                 }}
                 time2={{
                   name: item.time2.name,
                   shield: item.time2.shield,
-                  goal: item.time2.goals ? item.time2.goals : '0',
+                  goal: item.time2.goals ? item.time2.goals : "0",
                 }}
                 round={item.rodada}
                 date={item.date}
                 hour={item.time}
                 stadium={item.stadium}
-                status={item.status as 'Finalizado' | 'Em andamento'}
-                link={item.link}
-              />
-            ))}
-          </Section>
-        </Shell>
-      </div>
-
-      <div className="w-full">
-        <Shell className="max-w-7xl mx-auto px-4">
-          <Section title="Oitavas de final" href="#">
-            {oitavas.map((item, index) => (
-              <GameCard
-                key={index}
-                time1={{
-                  name: item.time1.name,
-                  shield: item.time1.shield,
-                  goal: item.time1.goals ? item.time1.goals : '0',
-                }}
-                time2={{
-                  name: item.time2.name,
-                  shield: item.time2.shield,
-                  goal: item.time2.goals ? item.time2.goals : '0',
-                }}
-                round={item.rodada}
-                date={item.date}
-                hour={item.time}
-                stadium={item.stadium}
-                status={item.status as 'Finalizado' | 'Em andamento'}
-                link={item.link}
-              />
-            ))}
-          </Section>
-        </Shell>
-      </div>
-
-      <div className="w-full">
-        <Shell className="max-w-7xl mx-auto px-4">
-          <Section title="Quartas de final" href="#">
-            {quartas.map((item, index) => (
-              <GameCard
-                key={index}
-                time1={{
-                  name: item.time1.name,
-                  shield: item.time1.shield,
-                  goal: item.time1.goals ? item.time1.goals : '0',
-                }}
-                time2={{
-                  name: item.time2.name,
-                  shield: item.time2.shield,
-                  goal: item.time2.goals ? item.time2.goals : '0',
-                }}
-                round={item.rodada}
-                date={item.date}
-                hour={item.time}
-                stadium={item.stadium}
-                status={item.status as 'Finalizado' | 'Em andamento'}
-                link={item.link}
-              />
-            ))}
-          </Section>
-        </Shell>
-      </div>
-
-      <div className="w-full">
-        <Shell className="max-w-7xl mx-auto px-4">
-          <Section title="Semifinais" href="#">
-            {semi.map((item, index) => (
-              <GameCard
-                key={index}
-                time1={{
-                  name: item.time1.name,
-                  shield: item.time1.shield,
-                  goal: item.time1.goals ? item.time1.goals : '0',
-                }}
-                time2={{
-                  name: item.time2.name,
-                  shield: item.time2.shield,
-                  goal: item.time2.goals ? item.time2.goals : '0',
-                }}
-                round={item.rodada}
-                date={item.date}
-                hour={item.time}
-                stadium={item.stadium}
-                status={item.status as 'Finalizado' | 'Em andamento'}
-                link={item.link}
-              />
-            ))}
-          </Section>
-        </Shell>
-      </div>
-
-      <div className="w-full">
-        <Shell className="max-w-7xl mx-auto px-4">
-          <Section title="Final" href="#">
-            {final.map((item, index) => (
-              <GameCard
-                key={index}
-                time1={{
-                  name: item.time1.name,
-                  shield: item.time1.shield,
-                  goal: item.time1.goals ? item.time1.goals : '0',
-                }}
-                time2={{
-                  name: item.time2.name,
-                  shield: item.time2.shield,
-                  goal: item.time2.goals ? item.time2.goals : '0',
-                }}
-                round={item.rodada}
-                date={item.date}
-                hour={item.time}
-                stadium={item.stadium}
-                status={item.status as 'Finalizado' | 'Em andamento'}
+                status={item.status as "Finalizado" | "Em andamento"}
                 link={item.link}
               />
             ))}
@@ -240,5 +120,5 @@ export default function Home() {
         </Shell>
       </div>
     </div>
-  )
+  );
 }

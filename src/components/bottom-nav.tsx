@@ -1,19 +1,19 @@
-'use client'
+"use client";
 
-import React from 'react'
+import React from "react";
 
-import Link from 'next/link'
+import Link from "next/link";
 
-import { useNavigation } from '@/hooks/use-navigation'
-import { useScroll } from '@/hooks/use-scroll'
-import { Icon } from '@iconify/react'
+import { useNavigation } from "@/hooks/use-navigation";
+import { useScroll } from "@/hooks/use-scroll";
+import { Icon } from "@iconify/react";
 
 const BottomNav = () => {
-  const scrollDirection = useScroll() // Use the custom hook
-  const navClass = scrollDirection === 'up' ? '' : 'opacity-25 duration-500'
+  const scrollDirection = useScroll(); // Use the custom hook
+  const navClass = scrollDirection === "up" ? "" : "opacity-25 duration-500";
 
   const { isHomeActive, isGruposActive, isClassificacaoActive, isTimesActive } =
-    useNavigation()
+    useNavigation();
 
   return (
     <div
@@ -47,16 +47,16 @@ const BottomNav = () => {
             <Icon icon="mingcute:notification-line" width="32" height="32" />
           )}
         </Link>
-        <Link href="/times" className="flex items-center">
+        {/* <Link href="/times" className="flex items-center">
           {isTimesActive ? (
             <Icon icon="ic:baseline-email" width="32" height="32" />
           ) : (
             <Icon icon="ic:outline-email" width="32" height="32" />
           )}
-        </Link>
+        </Link> */}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export { BottomNav }
+export { BottomNav };
